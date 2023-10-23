@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1.06 Sequential (Exercise
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1.07 Sequential (Exercise 7)", "1.1.07 Sequential (Exercise 7)\1.1.07 Sequential (Exercise 7).csproj", "{448EC1E1-E5D7-4CFE-95DE-35A1F56739AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1.09 Sequential (Exercise 9)", "1.1.09 Sequential (Exercise 9)\1.1.09 Sequential (Exercise 9).csproj", "{7E680A28-500C-4777-A6FC-679CF0C7BFA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{448EC1E1-E5D7-4CFE-95DE-35A1F56739AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{448EC1E1-E5D7-4CFE-95DE-35A1F56739AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{448EC1E1-E5D7-4CFE-95DE-35A1F56739AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E680A28-500C-4777-A6FC-679CF0C7BFA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E680A28-500C-4777-A6FC-679CF0C7BFA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E680A28-500C-4777-A6FC-679CF0C7BFA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E680A28-500C-4777-A6FC-679CF0C7BFA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
