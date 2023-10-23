@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\JuanB (Disco E)\\CSharp-Algorithm-and-Data-Structure\\1.1.01 Secuential (Exercise 1)\\1.1.01 Sequential (Exercise 1).csproj",
+      "projectUniqueName": "E:\\JuanB (Disco E)\\CSharp-Algorithm-and-Data-Structure\\1.1.01 Sequential (Exercise 1)\\1.1.01 Sequential (Exercise 1).csproj",
       "projectName": "1.1.01 Sequential (Exercise 1)",
-      "projectPath": "E:\\JuanB (Disco E)\\CSharp-Algorithm-and-Data-Structure\\1.1.01 Secuential (Exercise 1)\\1.1.01 Sequential (Exercise 1).csproj",
+      "projectPath": "E:\\JuanB (Disco E)\\CSharp-Algorithm-and-Data-Structure\\1.1.01 Sequential (Exercise 1)\\1.1.01 Sequential (Exercise 1).csproj",
       "packagesPath": "C:\\Users\\jbeltrame\\.nuget\\packages\\",
-      "outputPath": "E:\\JuanB (Disco E)\\CSharp-Algorithm-and-Data-Structure\\1.1.01 Secuential (Exercise 1)\\obj\\",
+      "outputPath": "E:\\JuanB (Disco E)\\CSharp-Algorithm-and-Data-Structure\\1.1.01 Sequential (Exercise 1)\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
