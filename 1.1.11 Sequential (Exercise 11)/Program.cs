@@ -19,4 +19,4 @@ Console.WriteLine("Ingresar las horas trabajadas del operario");
 horasTrabajadas = int.Parse(Console.ReadLine());
 
 sueldo = precioHora * horasTrabajadas;
-Console.WriteLine("El sueldo del operario es de: "+sueldo);
+Console.WriteLine("El sueldo del operario es de: "+ sueldo);
