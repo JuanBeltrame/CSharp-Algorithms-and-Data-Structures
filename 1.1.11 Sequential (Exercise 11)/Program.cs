@@ -14,7 +14,8 @@ conociendo la cantidad de horas que trabajó en el mes y el jornal horario.
 double precioHora, sueldo;
 int horasTrabajadas;
 
-precioHora = 750;
+Console.WriteLine("Ingresar el precio del jornal horario: ");
+precioHora = int.Parse(Console.ReadLine());
 Console.WriteLine("Ingresar las horas trabajadas del operario");
 horasTrabajadas = int.Parse(Console.ReadLine());
 

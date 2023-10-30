@@ -24,6 +24,16 @@ el monto correspondiente al IVA y
 el importe neto resultante.
 ----------------------------------------------------------------------
 */
+const double valorIva = 0.21;
+System.Console.WriteLine("Ingresar el importe bruto de la factura: ");
+double importeBruto = int.Parse(Console.ReadLine());
+double calculoBonificacion = importeBruto * 0.04;
+double importeConDescuento = importeBruto * 0.96;
+double calculoIva = importeConDescuento * valorIva;
+double importeNeto = importeConDescuento + calculoIva;
 
-double importeBruto
-
+System.Console.WriteLine("Importe Bruto: $" + importeBruto);
+System.Console.WriteLine("Valor de la bonificacion : $" + calculoBonificacion);
+System.Console.WriteLine("Importe con descuento: $" + importeConDescuento);
+System.Console.WriteLine("Importe correspondiente al IVA: $" + calculoIva);
+System.Console.WriteLine("Importe neto resultante: $" + importeNeto);

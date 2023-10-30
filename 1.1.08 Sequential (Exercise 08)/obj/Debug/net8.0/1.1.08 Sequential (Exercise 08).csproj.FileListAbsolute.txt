@@ -1,0 +1,15 @@
+e:\JuanB (Disco E)\CSharp-Algorithm-and-Data-Structure\1.1.08 Sequential (Exercise 08)\bin\Debug\net8.0\1.1.08 Sequential (Exercise 08).exe
+E:\JuanB (Disco E)\CSharp-Algorithm-and-Data-Structure\1.1.08 Sequential (Exercise 08)\bin\Debug\net8.0\1.1.08 Sequential (Exercise 08).deps.json
+E:\JuanB (Disco E)\CSharp-Algorithm-and-Data-Structure\1.1.08 Sequential (Exercise 08)\bin\Debug\net8.0\1.1.08 Sequential (Exercise 08).runtimeconfig.json
+e:\JuanB (Disco E)\CSharp-Algorithm-and-Data-Structure\1.1.08 Sequential (Exercise 08)\bin\Debug\net8.0\1.1.08 Sequential (Exercise 08).dll
+e:\JuanB (Disco E)\CSharp-Algorithm-and-Data-Structure\1.1.08 Sequential (Exercise 08)\bin\Debug\net8.0\1.1.08 Sequential (Exercise 08).pdb
+e:\JuanB (Disco E)\CSharp-Algorithm-and-Data-Structure\1.1.08 Sequential (Exercise 08)\obj\Debug\net8.0\1.1.08 Sequential (Exercise 08).GeneratedMSBuildEditorConfig.editorconfig
+e:\JuanB (Disco E)\CSharp-Algorithm-and-Data-Structure\1.1.08 Sequential (Exercise 08)\obj\Debug\net8.0\1.1.08 Sequential (Exercise 08).AssemblyInfoInputs.cache
+e:\JuanB (Disco E)\CSharp-Algorithm-and-Data-Structure\1.1.08 Sequential (Exercise 08)\obj\Debug\net8.0\1.1.08 Sequential (Exercise 08).AssemblyInfo.cs
+e:\JuanB (Disco E)\CSharp-Algorithm-and-Data-Structure\1.1.08 Sequential (Exercise 08)\obj\Debug\net8.0\1.1.08 Sequential (Exercise 08).csproj.CoreCompileInputs.cache
+e:\JuanB (Disco E)\CSharp-Algorithm-and-Data-Structure\1.1.08 Sequential (Exercise 08)\obj\Debug\net8.0\1.1.08 Sequential (Exercise 08).sourcelink.json
+e:\JuanB (Disco E)\CSharp-Algorithm-and-Data-Structure\1.1.08 Sequential (Exercise 08)\obj\Debug\net8.0\1.1.08 Sequential (Exercise 08).dll
+e:\JuanB (Disco E)\CSharp-Algorithm-and-Data-Structure\1.1.08 Sequential (Exercise 08)\obj\Debug\net8.0\refint\1.1.08 Sequential (Exercise 08).dll
+e:\JuanB (Disco E)\CSharp-Algorithm-and-Data-Structure\1.1.08 Sequential (Exercise 08)\obj\Debug\net8.0\1.1.08 Sequential (Exercise 08).pdb
+E:\JuanB (Disco E)\CSharp-Algorithm-and-Data-Structure\1.1.08 Sequential (Exercise 08)\obj\Debug\net8.0\1.1.08 Sequential (Exercise 08).genruntimeconfig.cache
+E:\JuanB (Disco E)\CSharp-Algorithm-and-Data-Structure\1.1.08 Sequential (Exercise 08)\obj\Debug\net8.0\ref\1.1.08 Sequential (Exercise 08).dll

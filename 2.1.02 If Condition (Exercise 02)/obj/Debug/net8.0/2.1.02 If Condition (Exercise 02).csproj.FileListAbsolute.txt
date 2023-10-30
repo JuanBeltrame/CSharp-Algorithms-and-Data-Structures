@@ -1,0 +1,15 @@
+e:\JuanB (Disco E)\CSharp-Algorithm-and-Data-Structure\2.1.02 If Condition (Exercise 02)\bin\Debug\net8.0\2.1.02 If Condition (Exercise 02).exe
+e:\JuanB (Disco E)\CSharp-Algorithm-and-Data-Structure\2.1.02 If Condition (Exercise 02)\bin\Debug\net8.0\2.1.02 If Condition (Exercise 02).deps.json
+e:\JuanB (Disco E)\CSharp-Algorithm-and-Data-Structure\2.1.02 If Condition (Exercise 02)\bin\Debug\net8.0\2.1.02 If Condition (Exercise 02).runtimeconfig.json
+e:\JuanB (Disco E)\CSharp-Algorithm-and-Data-Structure\2.1.02 If Condition (Exercise 02)\bin\Debug\net8.0\2.1.02 If Condition (Exercise 02).dll
+e:\JuanB (Disco E)\CSharp-Algorithm-and-Data-Structure\2.1.02 If Condition (Exercise 02)\bin\Debug\net8.0\2.1.02 If Condition (Exercise 02).pdb
+e:\JuanB (Disco E)\CSharp-Algorithm-and-Data-Structure\2.1.02 If Condition (Exercise 02)\obj\Debug\net8.0\2.1.02 If Condition (Exercise 02).GeneratedMSBuildEditorConfig.editorconfig
+e:\JuanB (Disco E)\CSharp-Algorithm-and-Data-Structure\2.1.02 If Condition (Exercise 02)\obj\Debug\net8.0\2.1.02 If Condition (Exercise 02).AssemblyInfoInputs.cache
+e:\JuanB (Disco E)\CSharp-Algorithm-and-Data-Structure\2.1.02 If Condition (Exercise 02)\obj\Debug\net8.0\2.1.02 If Condition (Exercise 02).AssemblyInfo.cs
+e:\JuanB (Disco E)\CSharp-Algorithm-and-Data-Structure\2.1.02 If Condition (Exercise 02)\obj\Debug\net8.0\2.1.02 If Condition (Exercise 02).csproj.CoreCompileInputs.cache
+e:\JuanB (Disco E)\CSharp-Algorithm-and-Data-Structure\2.1.02 If Condition (Exercise 02)\obj\Debug\net8.0\2.1.02 If Condition (Exercise 02).sourcelink.json
+e:\JuanB (Disco E)\CSharp-Algorithm-and-Data-Structure\2.1.02 If Condition (Exercise 02)\obj\Debug\net8.0\2.1.02 If Condition (Exercise 02).dll
+e:\JuanB (Disco E)\CSharp-Algorithm-and-Data-Structure\2.1.02 If Condition (Exercise 02)\obj\Debug\net8.0\refint\2.1.02 If Condition (Exercise 02).dll
+e:\JuanB (Disco E)\CSharp-Algorithm-and-Data-Structure\2.1.02 If Condition (Exercise 02)\obj\Debug\net8.0\2.1.02 If Condition (Exercise 02).pdb
+e:\JuanB (Disco E)\CSharp-Algorithm-and-Data-Structure\2.1.02 If Condition (Exercise 02)\obj\Debug\net8.0\2.1.02 If Condition (Exercise 02).genruntimeconfig.cache
+e:\JuanB (Disco E)\CSharp-Algorithm-and-Data-Structure\2.1.02 If Condition (Exercise 02)\obj\Debug\net8.0\ref\2.1.02 If Condition (Exercise 02).dll
