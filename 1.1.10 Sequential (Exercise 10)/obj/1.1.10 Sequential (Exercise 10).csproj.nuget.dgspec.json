@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\JuanB (Disco E)\\CSharp-Algorithm-and-Data-Structure\\1.1.10 Sequential (Exercise 10)\\1.1.10 Sequential (Exercise 10).csproj": {}
+    "E:\\JuanB (Disco E)\\CSharp-Algorithm-and-Data-Structure\\1.1.10 Sequential (Exercise 10)\\1.1.10 Sequential (Exercise 10).csproj": {}
   },
   "projects": {
-    "e:\\JuanB (Disco E)\\CSharp-Algorithm-and-Data-Structure\\1.1.10 Sequential (Exercise 10)\\1.1.10 Sequential (Exercise 10).csproj": {
+    "E:\\JuanB (Disco E)\\CSharp-Algorithm-and-Data-Structure\\1.1.10 Sequential (Exercise 10)\\1.1.10 Sequential (Exercise 10).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\JuanB (Disco E)\\CSharp-Algorithm-and-Data-Structure\\1.1.10 Sequential (Exercise 10)\\1.1.10 Sequential (Exercise 10).csproj",
+        "projectUniqueName": "E:\\JuanB (Disco E)\\CSharp-Algorithm-and-Data-Structure\\1.1.10 Sequential (Exercise 10)\\1.1.10 Sequential (Exercise 10).csproj",
         "projectName": "1.1.10 Sequential (Exercise 10)",
-        "projectPath": "e:\\JuanB (Disco E)\\CSharp-Algorithm-and-Data-Structure\\1.1.10 Sequential (Exercise 10)\\1.1.10 Sequential (Exercise 10).csproj",
+        "projectPath": "E:\\JuanB (Disco E)\\CSharp-Algorithm-and-Data-Structure\\1.1.10 Sequential (Exercise 10)\\1.1.10 Sequential (Exercise 10).csproj",
         "packagesPath": "C:\\Users\\jbeltrame\\.nuget\\packages\\",
-        "outputPath": "e:\\JuanB (Disco E)\\CSharp-Algorithm-and-Data-Structure\\1.1.10 Sequential (Exercise 10)\\obj\\",
+        "outputPath": "E:\\JuanB (Disco E)\\CSharp-Algorithm-and-Data-Structure\\1.1.10 Sequential (Exercise 10)\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

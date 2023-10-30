@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\JuanB (Disco E)\\CSharp-Algorithm-and-Data-Structure\\2.1.01 If Condition (Exercise 01)\\2.1.01 If Condition (Exercise 01).csproj": {}
+    "E:\\JuanB (Disco E)\\CSharp-Algorithm-and-Data-Structure\\2.1.01 If Condition (Exercise 01)\\2.1.01 If Condition (Exercise 01).csproj": {}
   },
   "projects": {
-    "e:\\JuanB (Disco E)\\CSharp-Algorithm-and-Data-Structure\\2.1.01 If Condition (Exercise 01)\\2.1.01 If Condition (Exercise 01).csproj": {
+    "E:\\JuanB (Disco E)\\CSharp-Algorithm-and-Data-Structure\\2.1.01 If Condition (Exercise 01)\\2.1.01 If Condition (Exercise 01).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\JuanB (Disco E)\\CSharp-Algorithm-and-Data-Structure\\2.1.01 If Condition (Exercise 01)\\2.1.01 If Condition (Exercise 01).csproj",
+        "projectUniqueName": "E:\\JuanB (Disco E)\\CSharp-Algorithm-and-Data-Structure\\2.1.01 If Condition (Exercise 01)\\2.1.01 If Condition (Exercise 01).csproj",
         "projectName": "2.1.01 If Condition (Exercise 01)",
-        "projectPath": "e:\\JuanB (Disco E)\\CSharp-Algorithm-and-Data-Structure\\2.1.01 If Condition (Exercise 01)\\2.1.01 If Condition (Exercise 01).csproj",
+        "projectPath": "E:\\JuanB (Disco E)\\CSharp-Algorithm-and-Data-Structure\\2.1.01 If Condition (Exercise 01)\\2.1.01 If Condition (Exercise 01).csproj",
         "packagesPath": "C:\\Users\\jbeltrame\\.nuget\\packages\\",
-        "outputPath": "e:\\JuanB (Disco E)\\CSharp-Algorithm-and-Data-Structure\\2.1.01 If Condition (Exercise 01)\\obj\\",
+        "outputPath": "E:\\JuanB (Disco E)\\CSharp-Algorithm-and-Data-Structure\\2.1.01 If Condition (Exercise 01)\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
