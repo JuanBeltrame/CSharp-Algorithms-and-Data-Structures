@@ -17,3 +17,4 @@ char letter3 = char.Parse(Console.ReadLine());
 char letter1Mayus = char.ToUpper(letter1);
 char letter2Mayus = char.ToUpper(letter2);
 char letter3Mayus = char.ToUpper(letter3);
+
