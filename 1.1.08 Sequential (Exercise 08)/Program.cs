@@ -9,7 +9,7 @@ Dado un número, mostrar el resultado de dicho número elevado a la octava.
 ----------------------------------------------------------------------
 */
 
-using System.Security.Cryptography.X509Certificates;
+
 
 int number, raised;
 
