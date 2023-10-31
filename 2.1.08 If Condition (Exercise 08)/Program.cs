@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿/*
+Practica 1 - If Conditional - Exercise 08
+----------------------------------------------------------------------
+English:
+
+
+Spanish: 
+
+----------------------------------------------------------------------
+*/
