@@ -3,53 +3,55 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34212.112
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1.10 Sequential (Exercise 10)", "1.1.10 Sequential (Exercise 10)\1.1.10 Sequential (Exercise 10).csproj", "{9C98BE56-46FB-482B-9FAF-EC5F18FFD06B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.1.10 Sequential (Exercise 10)", "1.1.10 Sequential (Exercise 10)\1.1.10 Sequential (Exercise 10).csproj", "{9C98BE56-46FB-482B-9FAF-EC5F18FFD06B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1.11 Sequential (Exercise 11)", "1.1.11 Sequential (Exercise 11)\1.1.11 Sequential (Exercise 11).csproj", "{D7A49212-5B23-4AD1-975E-F454949E1C2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.1.11 Sequential (Exercise 11)", "1.1.11 Sequential (Exercise 11)\1.1.11 Sequential (Exercise 11).csproj", "{D7A49212-5B23-4AD1-975E-F454949E1C2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1.12 Sequential (Exercise 12)", "1.1.12 Sequential (Exercise 12)\1.1.12 Sequential (Exercise 12).csproj", "{4AA69CE6-1DC7-4C33-8998-7858F3FBCF78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.1.12 Sequential (Exercise 12)", "1.1.12 Sequential (Exercise 12)\1.1.12 Sequential (Exercise 12).csproj", "{4AA69CE6-1DC7-4C33-8998-7858F3FBCF78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1.15 Sequential (Exercise 15)", "1.1.15 Sequential (Exercise 15)\1.1.15 Sequential (Exercise 15).csproj", "{0F7CC6A0-7B0A-41F4-BC18-1B51DE507F8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.1.15 Sequential (Exercise 15)", "1.1.15 Sequential (Exercise 15)\1.1.15 Sequential (Exercise 15).csproj", "{0F7CC6A0-7B0A-41F4-BC18-1B51DE507F8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1.16 Sequential (Exercise 16)", "1.1.16 Sequential (Exercise 16)\1.1.16 Sequential (Exercise 16).csproj", "{4E10D265-42E0-4151-97A4-AEEFB8FFF313}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.1.16 Sequential (Exercise 16)", "1.1.16 Sequential (Exercise 16)\1.1.16 Sequential (Exercise 16).csproj", "{4E10D265-42E0-4151-97A4-AEEFB8FFF313}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1.14 Sequential (Exercise 14)", "1.1.14 Sequential (Exercise 14)\1.1.14 Sequential (Exercise 14).csproj", "{24F00E24-506E-42A8-91A8-A33FEE3827A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.1.14 Sequential (Exercise 14)", "1.1.14 Sequential (Exercise 14)\1.1.14 Sequential (Exercise 14).csproj", "{24F00E24-506E-42A8-91A8-A33FEE3827A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1.13 Sequential (Exercise 13)", "1.1.13 Sequential (Exercise 13)\1.1.13 Sequential (Exercise 13).csproj", "{35191F71-441B-4EB3-8197-0C1AF2893C28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.1.13 Sequential (Exercise 13)", "1.1.13 Sequential (Exercise 13)\1.1.13 Sequential (Exercise 13).csproj", "{35191F71-441B-4EB3-8197-0C1AF2893C28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1.01 Sequential (Exercise 01)", "1.1.01 Sequential (Exercise 01)\1.1.01 Sequential (Exercise 01).csproj", "{A6021583-2FD6-4C47-A0BF-2F3E7EBF5F42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.1.01 Sequential (Exercise 01)", "1.1.01 Sequential (Exercise 01)\1.1.01 Sequential (Exercise 01).csproj", "{A6021583-2FD6-4C47-A0BF-2F3E7EBF5F42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1.02 Sequential (Exercise 02)", "1.1.02 Sequential (Exercise 02)\1.1.02 Sequential (Exercise 02).csproj", "{FEEE5E97-7D9E-46B4-AE48-B1188624D404}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.1.02 Sequential (Exercise 02)", "1.1.02 Sequential (Exercise 02)\1.1.02 Sequential (Exercise 02).csproj", "{FEEE5E97-7D9E-46B4-AE48-B1188624D404}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1.03 Sequential (Exercise 03)", "1.1.03 Sequential (Exercise 03)\1.1.03 Sequential (Exercise 03).csproj", "{2BDED56F-C758-47DC-8443-5EF04B6E5C8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.1.03 Sequential (Exercise 03)", "1.1.03 Sequential (Exercise 03)\1.1.03 Sequential (Exercise 03).csproj", "{2BDED56F-C758-47DC-8443-5EF04B6E5C8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1.04 Sequential (Exercise 04)", "1.1.04 Sequential (Exercise 04)\1.1.04 Sequential (Exercise 04).csproj", "{5EEE7D72-A4D6-4C52-804D-EF894A6899B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.1.04 Sequential (Exercise 04)", "1.1.04 Sequential (Exercise 04)\1.1.04 Sequential (Exercise 04).csproj", "{5EEE7D72-A4D6-4C52-804D-EF894A6899B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1.05 Sequential (Exercise 05)", "1.1.05 Sequential (Exercise 05)\1.1.05 Sequential (Exercise 05).csproj", "{9D9F9D73-8C2E-4D07-98F9-A73D53D6E9C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.1.05 Sequential (Exercise 05)", "1.1.05 Sequential (Exercise 05)\1.1.05 Sequential (Exercise 05).csproj", "{9D9F9D73-8C2E-4D07-98F9-A73D53D6E9C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1.06 Sequential (Exercise 06)", "1.1.06 Sequential (Exercise 06)\1.1.06 Sequential (Exercise 06).csproj", "{B368D859-49DF-4471-A29C-73C3718C276E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.1.06 Sequential (Exercise 06)", "1.1.06 Sequential (Exercise 06)\1.1.06 Sequential (Exercise 06).csproj", "{B368D859-49DF-4471-A29C-73C3718C276E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1.07 Sequential (Exercise 07)", "1.1.07 Sequential (Exercise 07)\1.1.07 Sequential (Exercise 07).csproj", "{58D884D4-D3AF-4195-A622-1BFAD0B88BC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.1.07 Sequential (Exercise 07)", "1.1.07 Sequential (Exercise 07)\1.1.07 Sequential (Exercise 07).csproj", "{58D884D4-D3AF-4195-A622-1BFAD0B88BC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1.08 Sequential (Exercise 08)", "1.1.08 Sequential (Exercise 08)\1.1.08 Sequential (Exercise 08).csproj", "{F3FE8680-246A-44D4-8053-7CCDB0700BFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.1.08 Sequential (Exercise 08)", "1.1.08 Sequential (Exercise 08)\1.1.08 Sequential (Exercise 08).csproj", "{F3FE8680-246A-44D4-8053-7CCDB0700BFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1.09 Sequential (Exercise 09)", "1.1.09 Sequential (Exercise 09)\1.1.09 Sequential (Exercise 09).csproj", "{3F9CA44A-384D-45B5-B085-0BAB36420D3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.1.09 Sequential (Exercise 09)", "1.1.09 Sequential (Exercise 09)\1.1.09 Sequential (Exercise 09).csproj", "{3F9CA44A-384D-45B5-B085-0BAB36420D3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1.01 If Condition (Exercise 01)", "2.1.01 If Condition (Exercise 01)\2.1.01 If Condition (Exercise 01).csproj", "{125B3E52-3084-487A-8166-DE79BD29D8DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.1.01 If Condition (Exercise 01)", "2.1.01 If Condition (Exercise 01)\2.1.01 If Condition (Exercise 01).csproj", "{125B3E52-3084-487A-8166-DE79BD29D8DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1.02 If Condition (Exercise 02)", "2.1.02 If Condition (Exercise 02)\2.1.02 If Condition (Exercise 02).csproj", "{35A06735-7CBE-4196-8E56-BB415BE42994}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.1.02 If Condition (Exercise 02)", "2.1.02 If Condition (Exercise 02)\2.1.02 If Condition (Exercise 02).csproj", "{35A06735-7CBE-4196-8E56-BB415BE42994}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1.03 If Condition (Exercise 03)", "2.1.03 If Condition (Exercise 03)\2.1.03 If Condition (Exercise 03).csproj", "{9BAADB0A-3E2F-43CA-8C1C-D0D2D5551DF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.1.03 If Condition (Exercise 03)", "2.1.03 If Condition (Exercise 03)\2.1.03 If Condition (Exercise 03).csproj", "{9BAADB0A-3E2F-43CA-8C1C-D0D2D5551DF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1.04 If Condition (Exercise 04)", "2.1.04 If Condition (Exercise 04)\2.1.04 If Condition (Exercise 04).csproj", "{0BC63041-8266-4A5A-BEF4-AC756C095812}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.1.04 If Condition (Exercise 04)", "2.1.04 If Condition (Exercise 04)\2.1.04 If Condition (Exercise 04).csproj", "{0BC63041-8266-4A5A-BEF4-AC756C095812}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1.05 If Condition (Exercise 05)", "2.1.05 If Condition (Exercise 05)\2.1.05 If Condition (Exercise 05).csproj", "{2DDDEA0A-5F3D-4723-A42D-E0CF02CDFC8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.1.05 If Condition (Exercise 05)", "2.1.05 If Condition (Exercise 05)\2.1.05 If Condition (Exercise 05).csproj", "{2DDDEA0A-5F3D-4723-A42D-E0CF02CDFC8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1.06 If Condition (Exercise 06)", "2.1.06 If Condition (Exercise 06)\2.1.06 If Condition (Exercise 06).csproj", "{01415AEF-4255-4CB3-AD44-B5F51FD1B1B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.1.06 If Condition (Exercise 06)", "2.1.06 If Condition (Exercise 06)\2.1.06 If Condition (Exercise 06).csproj", "{01415AEF-4255-4CB3-AD44-B5F51FD1B1B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1.07 If Condition (Exercise 07)", "2.1.07 If Condition (Exercise 07)\2.1.07 If Condition (Exercise 07).csproj", "{0B16A038-987F-4E04-ABC0-D3436BCBBA77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.1.07 If Condition (Exercise 07)", "2.1.07 If Condition (Exercise 07)\2.1.07 If Condition (Exercise 07).csproj", "{0B16A038-987F-4E04-ABC0-D3436BCBBA77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1.08 If Condition (Exercise 08)", "2.1.08 If Condition (Exercise 08)\2.1.08 If Condition (Exercise 08).csproj", "{CB8DFD06-CDB9-4BB1-A463-996BACDC1B0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.1.08 If Condition (Exercise 08)", "2.1.08 If Condition (Exercise 08)\2.1.08 If Condition (Exercise 08).csproj", "{CB8DFD06-CDB9-4BB1-A463-996BACDC1B0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1.09 If Condition (Exercise 09)", "2.1.09 If Condition (Exercise 09)\2.1.09 If Condition (Exercise 09).csproj", "{D6E66D54-E7C8-43D3-A84C-4ED6B8F168B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{CB8DFD06-CDB9-4BB1-A463-996BACDC1B0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB8DFD06-CDB9-4BB1-A463-996BACDC1B0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB8DFD06-CDB9-4BB1-A463-996BACDC1B0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6E66D54-E7C8-43D3-A84C-4ED6B8F168B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6E66D54-E7C8-43D3-A84C-4ED6B8F168B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6E66D54-E7C8-43D3-A84C-4ED6B8F168B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6E66D54-E7C8-43D3-A84C-4ED6B8F168B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
