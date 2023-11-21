@@ -51,7 +51,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.1.07 If Condition (Exerci
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.1.08 If Condition (Exercise 08)", "2.1.08 If Condition (Exercise 08)\2.1.08 If Condition (Exercise 08).csproj", "{CB8DFD06-CDB9-4BB1-A463-996BACDC1B0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1.09 If Condition (Exercise 09)", "2.1.09 If Condition (Exercise 09)\2.1.09 If Condition (Exercise 09).csproj", "{D6E66D54-E7C8-43D3-A84C-4ED6B8F168B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.1.09 If Condition (Exercise 09)", "2.1.09 If Condition (Exercise 09)\2.1.09 If Condition (Exercise 09).csproj", "{D6E66D54-E7C8-43D3-A84C-4ED6B8F168B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.2.1.1.01 Multidimensional Array (Exercise 1)", "5.2.1.1.01 Multidimensional Array (Exercise 1)\5.2.1.1.01 Multidimensional Array (Exercise 1).csproj", "{161F7236-AC53-4A54-A9C4-DC9B054214A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +161,10 @@ Global
 		{D6E66D54-E7C8-43D3-A84C-4ED6B8F168B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6E66D54-E7C8-43D3-A84C-4ED6B8F168B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6E66D54-E7C8-43D3-A84C-4ED6B8F168B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{161F7236-AC53-4A54-A9C4-DC9B054214A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{161F7236-AC53-4A54-A9C4-DC9B054214A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{161F7236-AC53-4A54-A9C4-DC9B054214A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{161F7236-AC53-4A54-A9C4-DC9B054214A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
