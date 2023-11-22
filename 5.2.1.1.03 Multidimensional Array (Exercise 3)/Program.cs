@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics.Metrics;
 
 /*
-Practica 3 - Multidimensional Array- Ejercicio 03
+Practica 3 - Multidimensional Array - Ejercicio 03
 ----------------------------------------------------------------------
 English:
 Enter integers into a two-dimensional array A of 10 rows by 5 columns;

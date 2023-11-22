@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("2.1.06 If Condition (Exercise 06)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+255c5a6c50e74c57242f6919d06e5b6670813959")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("2.1.06 If Condition (Exercise 06)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("2.1.06 If Condition (Exercise 06)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,5 +1,5 @@
 ﻿/*
-Practica 3 - Multidimensional Array- Ejercicio 02
+Practica 3 - Multidimensional Array - Ejercicio 02
 ----------------------------------------------------------------------
 English:
 Enter 20 sets of 20 integer elements each into a two-dimensional array. 
