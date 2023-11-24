@@ -42,7 +42,68 @@ Al final mostrar el Nro. de Comisión con mayor promedio de edad y dicho promedi
 ----------------------------------------------------------------------
 */
 
+int fila = 10;
+int columna = 10;
+string alumno = null;
+int comision = 0;
+int edad = 0;
+
+int[,] matrix = new int[fila, columna];
+
+void InicializarMatrix(int[,] m)
+{
+    for (int i = 0; i < fila; i++)
+    {
+        for (int j = 0; j < columna; j++)
+        {
+            m[i, j] = 0;
+        }
+    }
+}
+
+void MostrarArreglo(int[,] m)
+{
+    for (int i = 0; i < fila; i++)
+    {
+        for (int j = 0; j < columna; j++)
+        {
+            Console.Write(m[i, j]);
+        }
+        Console.WriteLine();
+    }
+}
 
 
 
 
+
+
+
+//------------Programa Principal---------------
+InicializarMatrix(matrix);
+MostrarArreglo(matrix);
+
+Console.Write("Ingresar nombre del Alumno: ");
+Console.Write($"Ingresar edad del alumno {alumno} [1 - 10]: ");
+edad = int.Parse(Console.ReadLine()!);
+Console.Write("Ingresar Comision [1 - 10]: ");
+comision = int.Parse(Console.ReadLine()!);
+alumno = Console.ReadLine()!;
+char continua = 'C';
+while (continua == 'C')
+{
+    do
+    {
+        Console.Write("Desea ingresar otro alumno: [C] Continuar / [F] Finalizar: ");
+        continua = char.ToUpper(char.Parse(Console.ReadLine()!));
+    } while (continua != 'C' && continua != 'F');
+    if (continua == 'C')
+    {
+        Console.Write("Ingresar nombre del Alumno: ");
+        alumno = Console.ReadLine()!;
+    }
+    else
+    {
+        Console.Write("Saliendo del Sistema....");
+    }
+}
