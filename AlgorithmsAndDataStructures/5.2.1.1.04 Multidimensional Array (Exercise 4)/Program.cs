@@ -43,12 +43,71 @@ Al final mostrar el Nro. de Comisión con mayor promedio de edad y dicho promedi
 */
 
 int fila = 10;
-int columna = 10;
+int columna = 2;
+int[,] matrix = new int[fila, columna];
+
 string alumno = null;
+
 int comision = 0;
+int anterior = 0;
 int edad = 0;
 
-int[,] matrix = new int[fila, columna];
+int mayorPromedio = 0;
+
+bool ValidarRangoEnteros(int num, int desde, int hasta)
+{
+    if (num >= desde && num <= hasta)
+        return true;
+    else
+        return false;
+}
+
+int ObtenerComision()
+{
+    int c = 0;
+    do
+    {
+        Console.Write("Ingresar Comision [1 - 10]: ");
+        c = int.Parse(Console.ReadLine()!);
+    } while (!ValidarRangoEnteros(c, 1, 10));
+
+    return c;
+}
+
+string ObtenerNombre()
+{
+    string a = null!;
+    Console.Write("Ingresar nombre del Alumno: ");
+    a = Console.ReadLine()!;
+
+    return a;
+}
+
+int ObtenerEdad()
+{
+    int e = 0;
+    do
+    {
+        Console.Write($"Ingresar edad del alumno [0 - 100]: ");
+        e = int.Parse(Console.ReadLine()!);
+    } while (!ValidarRangoEnteros(e, 0, 100));
+
+    return e;
+}
+
+void CargarMatriz(int[,] matriz, int numC, int cant, int avg)
+{
+    matriz[numC - 1, 0] = cant;
+    matrix[numC - 1, 1] = avg;
+}
+
+void MostrarMatriz(int[,] m)
+{
+    for (int i = 0; i < fila; i++)
+    {
+        Console.WriteLine($"Comision: {i + 1} Cantidad de Alumnos: {m[i, 0]}  Promedio de Edad: {m[i, 1]}");
+    }
+}
 
 void InicializarMatrix(int[,] m)
 {
@@ -61,49 +120,55 @@ void InicializarMatrix(int[,] m)
     }
 }
 
-void MostrarArreglo(int[,] m)
-{
-    for (int i = 0; i < fila; i++)
-    {
-        for (int j = 0; j < columna; j++)
-        {
-            Console.Write(m[i, j]);
-        }
-        Console.WriteLine();
-    }
-}
-
-
-
-
-
 
 
 //------------Programa Principal---------------
 InicializarMatrix(matrix);
-MostrarArreglo(matrix);
+Console.WriteLine(" ");
 
-Console.Write("Ingresar nombre del Alumno: ");
-Console.Write($"Ingresar edad del alumno {alumno} [1 - 10]: ");
-edad = int.Parse(Console.ReadLine()!);
-Console.Write("Ingresar Comision [1 - 10]: ");
-comision = int.Parse(Console.ReadLine()!);
-alumno = Console.ReadLine()!;
+comision = ObtenerComision();
 char continua = 'C';
 while (continua == 'C')
 {
-    do
+    int cantidad = 0;
+    int acumulador = 0;
+    int promedio = 0;
+
+    anterior = comision;
+    while (anterior == comision)
     {
-        Console.Write("Desea ingresar otro alumno: [C] Continuar / [F] Finalizar: ");
-        continua = char.ToUpper(char.Parse(Console.ReadLine()!));
-    } while (continua != 'C' && continua != 'F');
-    if (continua == 'C')
-    {
-        Console.Write("Ingresar nombre del Alumno: ");
-        alumno = Console.ReadLine()!;
-    }
-    else
-    {
-        Console.Write("Saliendo del Sistema....");
+        alumno = ObtenerNombre();
+        edad = ObtenerEdad();
+
+        cantidad = cantidad + 1;
+        acumulador = acumulador + edad;
+
+        do
+        {
+            Console.Write("Desea ingresar otro alumno: [C] Continuar / [F] Finalizar: ");
+            continua = char.ToUpper(char.Parse(Console.ReadLine()!));
+        } while (continua != 'C' && continua != 'F');
+
+        if (continua == 'C')
+        {
+            comision = ObtenerComision();
+            if (comision != anterior)
+            {
+                promedio = acumulador / cantidad;
+                
+                CargarMatriz(matrix, anterior, cantidad, promedio);
+                MostrarMatriz(matrix);
+
+            }
+            else
+            {
+
+            }
+        }
+        else
+        {
+            Console.Write("Saliendo del Sistema....");
+            comision = -1;
+        }
     }
 }
