@@ -172,6 +172,13 @@ while (continua == 'C')
         }
         else
         {
+            promedio = acumulador / cantidad;
+            if (promedio >= mayorPromedio)
+            {
+                mayorPromedio = promedio;
+                comisionConMayorPromedio = anterior;
+            }
+            CargarMatriz(matrix, anterior, cantidad, promedio);
             MostrarMatriz(matrix);
             Console.WriteLine($"El mayor promedio fue: {mayorPromedio}, perteneciente a la Comision: {comisionConMayorPromedio}");
             Console.Write("Saliendo del Sistema....");

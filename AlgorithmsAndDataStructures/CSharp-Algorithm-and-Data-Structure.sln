@@ -59,7 +59,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5.2.1.1.02 Multidimensional
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5.2.1.1.03 Multidimensional Array (Exercise 3)", "5.2.1.1.03 Multidimensional Array (Exercise 3)\5.2.1.1.03 Multidimensional Array (Exercise 3).csproj", "{C1471DB7-5F6C-4D61-818C-150D1DCA97C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.2.1.1.04 Multidimensional Array (Exercise 4)", "5.2.1.1.04 Multidimensional Array (Exercise 4)\5.2.1.1.04 Multidimensional Array (Exercise 4).csproj", "{329CD26E-C8A1-4AAB-9508-1EEE5970E8AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5.2.1.1.04 Multidimensional Array (Exercise 4)", "5.2.1.1.04 Multidimensional Array (Exercise 4)\5.2.1.1.04 Multidimensional Array (Exercise 4).csproj", "{329CD26E-C8A1-4AAB-9508-1EEE5970E8AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.2.1.1.05 Multidimensional Array (Exercise 5)", "5.2.1.1.05 Multidimensional Array (Exercise 5)\5.2.1.1.05 Multidimensional Array (Exercise 5).csproj", "{61F8D6D7-32AB-47E8-9951-0067B4447A4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.2.1.1.06 Multidimensional Array (Exercise 6)", "5.2.1.1.06 Multidimensional Array (Exercise 6)\5.2.1.1.06 Multidimensional Array (Exercise 6).csproj", "{DA6F291D-4CED-4AAF-9689-6AE4BA9BB44D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -183,6 +187,14 @@ Global
 		{329CD26E-C8A1-4AAB-9508-1EEE5970E8AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{329CD26E-C8A1-4AAB-9508-1EEE5970E8AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{329CD26E-C8A1-4AAB-9508-1EEE5970E8AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61F8D6D7-32AB-47E8-9951-0067B4447A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61F8D6D7-32AB-47E8-9951-0067B4447A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61F8D6D7-32AB-47E8-9951-0067B4447A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61F8D6D7-32AB-47E8-9951-0067B4447A4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA6F291D-4CED-4AAF-9689-6AE4BA9BB44D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA6F291D-4CED-4AAF-9689-6AE4BA9BB44D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA6F291D-4CED-4AAF-9689-6AE4BA9BB44D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA6F291D-4CED-4AAF-9689-6AE4BA9BB44D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
