@@ -53,6 +53,7 @@ int anterior = 0;
 int edad = 0;
 
 int mayorPromedio = 0;
+int comisionConMayorPromedio = 0;
 
 bool ValidarRangoEnteros(int num, int desde, int hasta)
 {
@@ -155,7 +156,11 @@ while (continua == 'C')
             if (comision != anterior)
             {
                 promedio = acumulador / cantidad;
-                
+                if(promedio >= mayorPromedio)
+                {
+                    mayorPromedio = promedio;
+                    comisionConMayorPromedio = anterior;
+                }
                 CargarMatriz(matrix, anterior, cantidad, promedio);
                 MostrarMatriz(matrix);
 
@@ -167,8 +172,11 @@ while (continua == 'C')
         }
         else
         {
+            MostrarMatriz(matrix);
+            Console.WriteLine($"El mayor promedio fue: {mayorPromedio}, perteneciente a la Comision: {comisionConMayorPromedio}");
             Console.Write("Saliendo del Sistema....");
             comision = -1;
         }
     }
 }
+
