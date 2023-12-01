@@ -39,7 +39,6 @@ int columna = 4;
 int[,] matriz = new int[fila, columna];
 
 
-
 void inicializarMatriz(int[,] matrix)
 {
     for (int i = 0; i < fila; i++)
@@ -73,7 +72,45 @@ void CargarMatriz(int[,] matrix)
 
 void MostrarMatriz(int[,] matrix)
 {
-    
+    for (int i = 0; i < fila; i++)
+    {
+        for (int j = 0; j < columna - 1; j++)
+        {
+            Console.Write(matrix[i, j]+" ");
+        }
+        Console.WriteLine();
+    }
+}
+
+void MostrarMatrizCompleta(int[,] matrix)
+{
+    for (int i = 0; i < fila; i++)
+    {
+        for (int j = 0; j < columna; j++)
+        {
+            Console.Write(matrix[i, j]+" ");
+        }
+        Console.WriteLine();
+    }
+}
+
+void BubbleSort(int[,] matrix, int numeroDeColumna)
+{
+    for (int i = 0; i < fila - 1; i++)
+    {
+        for (int j = i + 1; j < fila; j++)
+        {
+            if (matrix[i, numeroDeColumna] < matrix[j, numeroDeColumna])
+            {
+                for (int k = 0; k < columna; k++)
+                {
+                    int auxiliar = matrix[i, k];
+                    matrix[i, k] = matrix[j, k];
+                    matrix[j, k] = auxiliar;
+                }
+            }
+        }
+    }
 }
 
 static void ProcesosDeConsola(string mensaje)
@@ -86,11 +123,15 @@ static void ProcesosDeConsola(string mensaje)
 }
 
 
-
-
-
-
 //---------Programa Principal
 inicializarMatriz(matriz);
+
 ProcesosDeConsola("Cargar Matriz: ");
 CargarMatriz(matriz);
+
+ProcesosDeConsola("Mostrar Matriz");
+MostrarMatrizCompleta(matriz);
+
+ProcesosDeConsola("Mostrar Matriz ORDENADA por PUNTAJE");
+BubbleSort(matriz, 3);
+MostrarMatrizCompleta(matriz);
