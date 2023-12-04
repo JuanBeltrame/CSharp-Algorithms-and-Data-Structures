@@ -65,7 +65,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5.2.1.1.05 Multidimensional
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5.2.1.1.06 Multidimensional Array (Exercise 6)", "5.2.1.1.06 Multidimensional Array (Exercise 6)\5.2.1.1.06 Multidimensional Array (Exercise 6).csproj", "{DA6F291D-4CED-4AAF-9689-6AE4BA9BB44D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.2.1.1.08 Multidimensional Array (Exercise 8)", "5.2.1.1.08 Multidimensional Array (Exercise 8)\5.2.1.1.08 Multidimensional Array (Exercise 8).csproj", "{FE979F30-5842-485D-A435-CCB651C4CEC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5.2.1.1.08 Multidimensional Array (Exercise 8)", "5.2.1.1.08 Multidimensional Array (Exercise 8)\5.2.1.1.08 Multidimensional Array (Exercise 8).csproj", "{FE979F30-5842-485D-A435-CCB651C4CEC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.2.1.1.07 Multidimensional Array (Exercise 7)", "5.2.1.1.07 Multidimensional Array (Exercise 7)\5.2.1.1.07 Multidimensional Array (Exercise 7).csproj", "{A521C839-95F4-4E46-AF3F-333C3F275804}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.2.1.1.11 Multidimensional Array (Exercise 11)", "5.2.1.1.11 Multidimensional Array (Exercise 11)\5.2.1.1.11 Multidimensional Array (Exercise 11).csproj", "{8F1F1869-FA55-42B9-BE1D-4C02BE315430}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -201,6 +205,14 @@ Global
 		{FE979F30-5842-485D-A435-CCB651C4CEC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE979F30-5842-485D-A435-CCB651C4CEC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE979F30-5842-485D-A435-CCB651C4CEC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A521C839-95F4-4E46-AF3F-333C3F275804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A521C839-95F4-4E46-AF3F-333C3F275804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A521C839-95F4-4E46-AF3F-333C3F275804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A521C839-95F4-4E46-AF3F-333C3F275804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F1F1869-FA55-42B9-BE1D-4C02BE315430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F1F1869-FA55-42B9-BE1D-4C02BE315430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F1F1869-FA55-42B9-BE1D-4C02BE315430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F1F1869-FA55-42B9-BE1D-4C02BE315430}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

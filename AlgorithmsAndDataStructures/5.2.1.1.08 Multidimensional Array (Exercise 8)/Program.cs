@@ -62,7 +62,7 @@ void CargarMatriz(int[,] matrix)
             do
             {
                 Console.Write($"Fila {i + 1}, Columna {j + 1}: ");
-                datoACargar = int.Parse(Console.ReadLine()!);
+                int.TryParse(Console.ReadLine(), out datoACargar);
             } while (datoACargar <= 0 || datoACargar >= 100);
             matrix[i, j] = datoACargar;
         }
@@ -76,7 +76,7 @@ void MostrarMatriz(int[,] matrix)
     {
         for (int j = 0; j < columna - 1; j++)
         {
-            Console.Write(matrix[i, j]+" ");
+            Console.Write(matrix[i, j] + " ");
         }
         Console.WriteLine();
     }
@@ -88,7 +88,7 @@ void MostrarMatrizCompleta(int[,] matrix)
     {
         for (int j = 0; j < columna; j++)
         {
-            Console.Write(matrix[i, j]+" ");
+            Console.Write(matrix[i, j] + " ");
         }
         Console.WriteLine();
     }
