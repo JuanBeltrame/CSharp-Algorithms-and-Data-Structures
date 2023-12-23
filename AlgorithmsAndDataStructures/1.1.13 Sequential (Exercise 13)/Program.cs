@@ -1,5 +1,5 @@
 ﻿/*
-Practica 1 - Sequential - Exercise 13
+Practica 1 - Sequential - Exercise 1.1.13
 ----------------------------------------------------------------------
 English:
 Given the gross amount of an invoice, 

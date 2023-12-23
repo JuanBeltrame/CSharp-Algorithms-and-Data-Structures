@@ -1,5 +1,5 @@
 ﻿/*
-Practica 1 - Sequential - Exercise 07
+Practica 1 - Sequential - Exercise 1.1.07
 ----------------------------------------------------------------------
 English:
 Given the value of the side of a square, 

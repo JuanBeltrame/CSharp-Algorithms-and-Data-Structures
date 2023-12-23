@@ -1,5 +1,5 @@
 ﻿/*
-Practica 1 - Sequential - Exercise 09
+Practica 1 - Sequential - Exercise 1.1.09
 ----------------------------------------------------------------------
 English:
 Keep in mind that only the 4 basic operations are recognized.

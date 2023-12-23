@@ -1,5 +1,5 @@
 ﻿/*
-Practica 1 - If Conditional - Exercise 04
+Practica 1 - If Conditional - Exercise 2.1.04
 ----------------------------------------------------------------------
 English:
 Enter three distinct integer numbers. 

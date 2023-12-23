@@ -1,5 +1,5 @@
 ﻿/*
-Practica 1 - Sequential - Exercise 01
+Practica 1 - Sequential - Exercise 1.1.01
 ----------------------------------------------------------------------
 English:
 Given two numbers entered via keyboard as data, 

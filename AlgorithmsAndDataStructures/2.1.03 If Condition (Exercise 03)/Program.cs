@@ -1,5 +1,5 @@
 ﻿/*
-Practica 1 - If Conditional - Exercise 03
+Practica 1 - If Conditional - Exercise 2.1.03
 ----------------------------------------------------------------------
 English:
 Given the measurement of each of the three angles of a triangle, determine and report through a message whether they belong to a right triangle or not.

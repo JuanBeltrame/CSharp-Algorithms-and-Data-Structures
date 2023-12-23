@@ -1,5 +1,5 @@
 ﻿/*
-Practica 1 - Sequential - Exercise 08
+Practica 1 - Sequential - Exercise 1.1.08
 ----------------------------------------------------------------------
 English:
 Given a number, show the result of that number raised to the eighth power.

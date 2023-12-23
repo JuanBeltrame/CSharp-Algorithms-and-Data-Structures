@@ -1,5 +1,5 @@
 ﻿/*
-Practica 1 - Sequential - Exercise 14
+Practica 1 - Sequential - Exercise 1.1.14
 ----------------------------------------------------------------------
 English:
 Calculate how many pesos a bank has in coins:

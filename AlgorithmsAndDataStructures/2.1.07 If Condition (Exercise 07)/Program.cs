@@ -1,5 +1,5 @@
 ﻿/*
-Practica 1 - If Conditional - Exercise 07
+Practica 1 - If Conditional - Exercise 2.1.07
 ----------------------------------------------------------------------
 English:
 Quality Control of Two Types of Parts in a Factory is Desired

@@ -1,5 +1,5 @@
 ﻿/*
-Practica 1 - If Conditional - Exercise 06
+Practica 1 - If Conditional - Exercise 2.1.06
 ----------------------------------------------------------------------
 English:
 Enter three capital letters and display them in alphabetical order.

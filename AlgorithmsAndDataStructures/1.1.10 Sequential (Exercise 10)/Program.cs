@@ -1,5 +1,5 @@
 ﻿/*
-Practica 1 - Sequential - Exercise 10
+Practica 1 - Sequential - Exercise 1.1.10
 ----------------------------------------------------------------------
 English:
 Given the net amount of an invoice as data, 

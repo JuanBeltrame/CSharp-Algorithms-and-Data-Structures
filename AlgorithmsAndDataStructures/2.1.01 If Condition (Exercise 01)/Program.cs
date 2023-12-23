@@ -1,5 +1,5 @@
 ﻿/*
-Practica 1 - If Conditional - Exercise 01
+Practica 1 - If Conditional - Exercise 2.1.01
 ----------------------------------------------------------------------
 English:
 Given two distinct numbers,

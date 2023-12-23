@@ -1,5 +1,5 @@
 ﻿/*
-Practica 1 - Sequential - Exercise 15
+Practica 1 - Sequential - Exercise 1.1.15
 ----------------------------------------------------------------------
 English:
 Enter 3 values into 3 variables X, Y, and Z.

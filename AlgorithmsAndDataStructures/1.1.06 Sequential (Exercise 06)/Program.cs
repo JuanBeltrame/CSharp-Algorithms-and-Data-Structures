@@ -1,5 +1,5 @@
 ﻿/*
-Practica 1 - Sequential - Exercise 06
+Practica 1 - Sequential - Exercise 1.1.06
 ----------------------------------------------------------------------
 English:
 Given the measures of two angles of a triangle, 

@@ -1,5 +1,5 @@
 ﻿/*
-Practica 1 - Sequential - Exercise 11
+Practica 1 - Sequential - Exercise 1.1.11
 ----------------------------------------------------------------------
 English:
 Calculate the salary of a worker, 

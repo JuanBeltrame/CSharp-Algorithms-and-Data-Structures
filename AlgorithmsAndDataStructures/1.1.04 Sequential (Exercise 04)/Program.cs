@@ -1,5 +1,5 @@
 ﻿/*
-Practica 1 - Sequential - Exercise 04
+Practica 1 - Sequential - Exercise 1.1.04
 ----------------------------------------------------------------------
 English:
 Given two integer numbers, obtain their sum, difference, multiplication, and division.

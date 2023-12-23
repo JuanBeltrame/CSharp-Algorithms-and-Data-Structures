@@ -1,5 +1,5 @@
 ﻿/*
-Practica 1 - Sequential - Exercise 16
+Practica 1 - Sequential - Exercise 1.1.16
 ----------------------------------------------------------------------
 English:
 Indicate what the output will be after performing the requested task in the previous exercise, 

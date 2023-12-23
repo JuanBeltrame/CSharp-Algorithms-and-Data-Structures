@@ -1,5 +1,5 @@
 ﻿/*
-Practica 1 - Sequential - Exercise 12
+Practica 1 - Sequential - Exercise 1.1.12
 ----------------------------------------------------------------------
 English:
 Determine the number of hours, minutes, and seconds in 6250 seconds.

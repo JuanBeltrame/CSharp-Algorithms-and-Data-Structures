@@ -1,5 +1,5 @@
 ﻿/*
-Practica 1 - If Conditional - Exercise 05
+Practica 1 - If Conditional - Exercise 2.1.05
 ----------------------------------------------------------------------
 English:
 Determine if the first of a set of three given numbers 

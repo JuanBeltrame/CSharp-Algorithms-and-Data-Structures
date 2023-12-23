@@ -1,5 +1,5 @@
 ﻿/*
-Practica 1 - Sequential - Exercise 05
+Practica 1 - Sequential - Exercise 1.1.05
 ----------------------------------------------------------------------
 English:
 Given a number, show the result of multiplying that number by 6, assuming you can only use the addition operator (+).

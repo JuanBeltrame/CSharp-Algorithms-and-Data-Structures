@@ -1,5 +1,5 @@
 ﻿/*
-Practica 1 - Sequential - Exercise 03
+Practica 1 - Sequential - Exercise 1.1.03
 ----------------------------------------------------------------------
 English:
 Given five numbers, 
