@@ -18,7 +18,7 @@ Se pide elaborar una aplicación que calcule los centros numéricos entre 1 y el
 ----------------------------------------------------------------------
 */
 
-
+//--------Programa Principal----------
 Console.Title = "Ejercicio I05 - Tirame un centro";
 
 Console.WriteLine("Ingrese un numero: ");
