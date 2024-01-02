@@ -2,7 +2,11 @@
 Ejercicio I05 - Tirame un centro - UTN Avellaneda
 ----------------------------------------------------------------------
 English:
-
+A numerical center is a number that separates a list of integers 
+(starting from 1) into two groups of numbers, whose sums are equal.
+The first numerical center is 6, which separates the list (1 to 8) into the groups: (1; 2; 3; 4; 5) and (7; 8) whose sums are both equal to 15. 
+The second numerical center is 35, which separates the list (1 to 49) into the groups: (1 to 34) and (36 to 49) whose sums are both equal to 595.
+An application is requested to calculate the numerical centers between 1 and the number that the user enters through the console.
 
 Spanish: 
 Un centro numérico es un número que separa una lista de números enteros
