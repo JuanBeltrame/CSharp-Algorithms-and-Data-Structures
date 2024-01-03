@@ -77,7 +77,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.2.3.1 While Loops (Exerci
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SinNombre", "SinNombre\SinNombre.csproj", "{32DA8728-D81C-41C2-AA24-7B7A28D05700}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinNombre02", "SinNombre02\SinNombre02.csproj", "{E3D6768F-FF55-4A36-A789-C30DCED4F58D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.2.02 If Condition (Exercise 01)", "SinNombre02\2.2.02 If Condition (Exercise 01).csproj", "{E3D6768F-FF55-4A36-A789-C30DCED4F58D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinNombre2", "SinNombre2\SinNombre2.csproj", "{C88CF32D-48D9-4EF9-98C1-8663607E41B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -237,6 +239,10 @@ Global
 		{E3D6768F-FF55-4A36-A789-C30DCED4F58D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3D6768F-FF55-4A36-A789-C30DCED4F58D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3D6768F-FF55-4A36-A789-C30DCED4F58D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C88CF32D-48D9-4EF9-98C1-8663607E41B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C88CF32D-48D9-4EF9-98C1-8663607E41B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C88CF32D-48D9-4EF9-98C1-8663607E41B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C88CF32D-48D9-4EF9-98C1-8663607E41B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
