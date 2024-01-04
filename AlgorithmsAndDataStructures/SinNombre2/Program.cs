@@ -30,23 +30,17 @@ Para el ejemplo anterior, la altura ingresada fue de 5.
 //----Programa Principal------
 
 Console.Title = "Ejercicio I08 - Dibujando un triángulo rectángulo - UTN Avellaneda";
-int altura = default;
-char symbol = default;
+int row, col, height;
+Console.WriteLine("Enter number: ");
+height = int.Parse(Console.ReadLine()!);
 
-Console.Write("Enter Triange Rectangle height: ");
-if (int.TryParse(Console.ReadLine(), out altura))
+for (row = 0; row < height; row++)
 {
-    for (int i = 0; i < altura; i++)
+    for (col = 0; col <= row; col++)
     {
-        if (i == 0)
-        {
-            symbol = 'x';
-            Console.WriteLine(symbol);
-        }
-        else if (i + 1 < altura)
-
-
-
+        Console.Write('*');
     }
+    Console.WriteLine();
 }
+Console.ReadKey();
 
