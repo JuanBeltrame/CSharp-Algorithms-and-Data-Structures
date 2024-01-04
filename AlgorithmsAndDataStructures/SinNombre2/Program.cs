@@ -1,15 +1,42 @@
 ﻿/* 
-Ejercicio I04 - Un número perfecto - UTN Avellaneda
+Ejercicio I08 - Dibujando un triángulo rectángulo - UTN Avellaneda
 ----------------------------------------------------------------------
 English:
+Write a program that prints by console a triangle like the following:
 
+*
+***
+*****
+*******
+*********
+
+The user will indicate the height of the triangle by entering a positive integer. 
+For the example above, the height entered was 5.
 
 Spanish: 
-Un número perfecto es un entero positivo, 
-que es igual a la suma de todos los enteros positivos (excluido el mismo) que son divisores del número.
-El primer número perfecto es 6, ya que los divisores de 6 son 1, 2 y 3; y 1 + 2 + 3 = 6.
-Escribir una aplicación que encuentre los 4 primeros números perfectos.
+Escribir un programa que imprima por consola un triángulo como el siguiente:
+
+*
+***
+*****
+*******
+*********
+
+El usuario indicará cuál será la altura del triángulo ingresando un número entero positivo. 
+Para el ejemplo anterior, la altura ingresada fue de 5.
 ----------------------------------------------------------------------
 */
 
 //----Programa Principal------
+
+Console.Title = "Ejercicio I08 - Dibujando un triángulo rectángulo - UTN Avellaneda";
+int altura = default;
+
+if (int.TryParse(Console.ReadLine(), out altura))
+{
+    for (int i = 0; i < altura; i++)
+    {
+
+    }
+}
+

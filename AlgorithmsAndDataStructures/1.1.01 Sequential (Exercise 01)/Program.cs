@@ -13,11 +13,33 @@ Declarar las variables a utilizar N1, N2, SUMA de tipo numérico
 ----------------------------------------------------------------------
 */
 
-int n1, n2, sum;
+//---Main Program---
+Console.Title = "Sequential - Exercise 1.1.01";
 
-Console.WriteLine("Ingresar 2 numeros");
-n1 = int.Parse(Console.ReadLine());
-n2 = int.Parse(Console.ReadLine());
+int firstNumber = default;
+int secondNumber = default;
+int result = default;
 
-sum = n1 + n2;
-Console.WriteLine("El resultado es:{0}", sum);
+Console.ForegroundColor = ConsoleColor.Yellow;
+Console.WriteLine("Enter 2 integers numbers: ");
+Console.Write("Enter the first number: ");
+
+if (int.TryParse(Console.ReadLine(), out firstNumber))
+{
+    Console.Write("Enter the second number: ");
+    if (int.TryParse(Console.ReadLine(), out secondNumber))
+    {
+        result = firstNumber + secondNumber;
+        Console.Write("The result is: {0}", result);
+    }
+    else
+    {
+        Console.WriteLine("The input is not valid");
+    }
+}
+else
+{
+    Console.WriteLine("The input is not valid");
+}
+Console.ReadKey();
+
