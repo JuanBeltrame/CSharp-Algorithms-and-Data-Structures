@@ -81,7 +81,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.2.02 If Condition (Exerci
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SinNombre2", "SinNombre2\SinNombre2.csproj", "{C88CF32D-48D9-4EF9-98C1-8663607E41B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9.0.01 Star Patterns Programs", "9.0.01 Star Patterns Programs\9.0.01 Star Patterns Programs.csproj", "{DE7BDA39-6C62-4BAE-95D3-4B19A853B094}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9.0.01 Star Patterns Programs", "9.0.01 Star Patterns Programs\9.0.01 Star Patterns Programs.csproj", "{DE7BDA39-6C62-4BAE-95D3-4B19A853B094}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9.0.02 Star Patterns Programs", "9.0.02 Star Patterns Programs\9.0.02 Star Patterns Programs.csproj", "{00830158-2B67-4B2C-9444-2D7F91F0BAF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -249,6 +251,10 @@ Global
 		{DE7BDA39-6C62-4BAE-95D3-4B19A853B094}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE7BDA39-6C62-4BAE-95D3-4B19A853B094}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE7BDA39-6C62-4BAE-95D3-4B19A853B094}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00830158-2B67-4B2C-9444-2D7F91F0BAF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00830158-2B67-4B2C-9444-2D7F91F0BAF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00830158-2B67-4B2C-9444-2D7F91F0BAF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00830158-2B67-4B2C-9444-2D7F91F0BAF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,16 +6,16 @@
 
     int.TryParse(Console.ReadLine(), out height);
 
+    Console.WriteLine();
     for (row = 0; row < height; row++)
     {
         for (column = 0; column <= row; column++)
         {
+            
             Console.Write('*');
         }
         Console.WriteLine();
     }
-    Console.ReadKey();
-
 }
 
 
@@ -27,3 +27,4 @@ Console.Write("Enter height: ");
 
 GetSolution();
 
+Console.ReadKey();
