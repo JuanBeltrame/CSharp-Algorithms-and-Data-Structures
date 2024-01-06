@@ -13,16 +13,16 @@ Console.ForegroundColor = ConsoleColor.Yellow;
 
 
 Console.WriteLine("Enter height: "); // ingreso 4 filas como ejemplo.
-height = Convert.ToInt32(Console.ReadLine()!);
+height = Convert.ToInt32(Console.ReadLine()!); 
 spacePrinting = height - 1;
 
 for (int row = 1; row <= height; row++) // Para cada fila 
 {
     for (int column = 1; column <= spacePrinting; column++) // Este for imprime los espacios en blanco // Para cada columna
     {
-        Console.Write('e'); // Voy a imprimir espacios en blanco en cada columna
+        Console.Write(' '); // Voy a imprimir espacios en blanco en cada columna
     }
-    for (int starPrinting = 1; starPrinting <= lenght; starPrinting++) // Este for imprime las estrellas
+    for(int starPrinting= 1; starPrinting <= lenght; starPrinting++) // Este for imprime las estrellas
     {
         Console.Write('*');
     }
