@@ -85,6 +85,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9.1.01 Star Patterns Progra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9.1.02 Star Patterns Programs", "9.1.02 Star Patterns Programs\9.1.02 Star Patterns Programs.csproj", "{50408F22-6066-43D2-938E-8168C7BE5DDC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1.10 If Condition (Exercise 10)", "2.1.10 If Condition (Exercise 10)\2.1.10 If Condition (Exercise 10).csproj", "{D080AF22-0AF4-4044-9268-83B3B7B1FEF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -255,6 +257,10 @@ Global
 		{50408F22-6066-43D2-938E-8168C7BE5DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50408F22-6066-43D2-938E-8168C7BE5DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50408F22-6066-43D2-938E-8168C7BE5DDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D080AF22-0AF4-4044-9268-83B3B7B1FEF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D080AF22-0AF4-4044-9268-83B3B7B1FEF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D080AF22-0AF4-4044-9268-83B3B7B1FEF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D080AF22-0AF4-4044-9268-83B3B7B1FEF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
