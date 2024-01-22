@@ -19,6 +19,7 @@ del kilowatio es de 0.15 pesos.
 //------------Programa Principal------------------
 
 decimal kilowatts = default;
+decimal precio = default;
 
 Console.Title = "Practica 1 - If Conditional - Exercise 2.1.10";
 Console.ForegroundColor = ConsoleColor.Yellow;
@@ -36,10 +37,16 @@ while (!decimal.TryParse(Console.ReadLine(), out kilowatts))
 
 if (kilowatts <= 200)
 {
-
+    precio = kilowatts * 0.05M;
 }
-else if (kilowatts >= 200 && kilowatts < 1000)
+else if (kilowatts > 200 && kilowatts < 1000)
 {
-
+    precio = kilowatts * 0.1M;
 }
+else
+{
+    precio = kilowatts * 0.15M;
+}
+
+Console.WriteLine($"El monto a pagar es de: {precio}");
 
