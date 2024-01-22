@@ -23,13 +23,27 @@ if(!int.TryParse(Console.ReadLine(), out int n1))
 }
 
 Console.Write("Ingresar el Segundo numero: ");
-int.TryParse(Console.ReadLine(), out int n2);
+if (!int.TryParse(Console.ReadLine(), out int n2))
+{
+    Console.WriteLine("El numero ingresado no es un numero");
+}
+
 Console.Write("Ingresar el Tercer numero: ");
-int.TryParse(Console.ReadLine(), out int n3);
+if(!int.TryParse(Console.ReadLine(), out int n3))
+{
+    Console.WriteLine("El numero ingresado no es un numero");
+}
+
 Console.Write("Ingresar el Cuarto numero: ");
-int.TryParse(Console.ReadLine(), out int n4);
+if(!int.TryParse(Console.ReadLine(), out int n4))
+{
+    Console.WriteLine("El numero ingresado no es un numero");
+}
 Console.Write("Ingresar el Quinto numero: ");
-int.TryParse(Console.ReadLine(), out int n5);
+if(!int.TryParse(Console.ReadLine(), out int n5))
+{
+    Console.WriteLine("El numero ingresado no es un numero");
+}
 
 int max = n1;
 int minimo = n1;
@@ -43,6 +57,7 @@ else if (n2 < minimo)
 {
     minimo = n2;
 }
+
 if (n3 > max)
 {
     max = n3;
@@ -51,6 +66,7 @@ else if (n3 < minimo)
 {
     minimo = n3;
 }
+
 if (n4 > max)
 {
     max = n4;
@@ -59,6 +75,7 @@ else if (n4 < minimo)
 {
     minimo = n4;
 }
+
 if (n5 > max)
 {
     max = n5;
