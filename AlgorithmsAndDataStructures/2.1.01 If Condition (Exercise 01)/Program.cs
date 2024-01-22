@@ -17,7 +17,24 @@ internal class Program
     private static void Main(string[] args)
     {
         Console.WriteLine("Ingresar un numero");
-        int numberA = int.Parse(Console.ReadLine());
-        int numberB = int.Parse(Console.ReadLine());
+
+        if(!int.TryParse(Console.ReadLine(), out int numberA))
+        {
+            Console.WriteLine("El numero ingresado no es un numero;");
+        }
+
+        if(!int.TryParse(Console.ReadLine(), out int numberB))
+        {
+            Console.WriteLine("El numero ingresado no es un numero;");
+        }
+
+        if (numberA < numberB)
+        {
+            Console.Write($"{numberA}, {numberB}");
+        }
+        else
+        {
+            Console.Write($"{numberB}, {numberA}");
+        }
     }
 }
