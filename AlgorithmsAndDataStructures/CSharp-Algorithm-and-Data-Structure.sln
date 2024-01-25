@@ -87,7 +87,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9.1.02 Star Patterns Progra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.1.10 If Condition (Exercise 10)", "2.1.10 If Condition (Exercise 10)\2.1.10 If Condition (Exercise 10).csproj", "{D080AF22-0AF4-4044-9268-83B3B7B1FEF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1.11 If Condition (Exercise 11)", "2.1.11 If Condition (Exercise 11)\2.1.11 If Condition (Exercise 11).csproj", "{8877941A-A16F-4BF8-B1FF-64CC2EEC25AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.1.11 If Condition (Exercise 11)", "2.1.11 If Condition (Exercise 11)\2.1.11 If Condition (Exercise 11).csproj", "{8877941A-A16F-4BF8-B1FF-64CC2EEC25AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1.12 If Condition (Exercise 12)", "2.1.12 If Condition (Exercise 12)\2.1.12 If Condition (Exercise 12).csproj", "{536410EF-D286-4978-9939-1493CCE562BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1.13 If Condition (Exercise 13)", "2.1.13 If Condition (Exercise 13)\2.1.13 If Condition (Exercise 13).csproj", "{92BDD5C5-D0C5-4ED8-B0D1-C48575AB8076}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -267,6 +271,14 @@ Global
 		{8877941A-A16F-4BF8-B1FF-64CC2EEC25AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8877941A-A16F-4BF8-B1FF-64CC2EEC25AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8877941A-A16F-4BF8-B1FF-64CC2EEC25AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{536410EF-D286-4978-9939-1493CCE562BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{536410EF-D286-4978-9939-1493CCE562BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{536410EF-D286-4978-9939-1493CCE562BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{536410EF-D286-4978-9939-1493CCE562BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92BDD5C5-D0C5-4ED8-B0D1-C48575AB8076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92BDD5C5-D0C5-4ED8-B0D1-C48575AB8076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92BDD5C5-D0C5-4ED8-B0D1-C48575AB8076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92BDD5C5-D0C5-4ED8-B0D1-C48575AB8076}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

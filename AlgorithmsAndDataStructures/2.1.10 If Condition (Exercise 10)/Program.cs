@@ -48,5 +48,5 @@ else
     precio = kilowatts * 0.15M;
 }
 
-Console.WriteLine($"El monto a pagar es de: {precio}");
+Console.WriteLine($"El monto a pagar es de: ${precio}");
 
