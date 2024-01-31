@@ -20,15 +20,16 @@ using System.Diagnostics.Tracing;
 Console.Title = "Practica 1 - For loops - Exercise 3.1.9";
 Console.ForegroundColor = ConsoleColor.Yellow;
 
-decimal importe = default;
+int importe = default;
 int contadorDeVentas = default;
 decimal sumadorDeVentas = 0;
-int cantidadDeVentas = 10;
+int cantidadDeVentas = 200;
 
+Random rn = new();
 
 for (int i = 0; i < cantidadDeVentas; i++)
 {
-    importe = int.Parse(Console.ReadLine()!);
+    importe = rn.Next(100, 20001);
     if (importe < 10000)
     {
         contadorDeVentas += 1;
@@ -39,4 +40,7 @@ for (int i = 0; i < cantidadDeVentas; i++)
     }
 
 }
-
+Console.WriteLine("-----------------------");
+Console.WriteLine($"Se realizaron {contadorDeVentas} ventas con un valor menor a $10000");
+Console.WriteLine($"Las ventas que superaron los $1000 suman un monto total de: ${sumadorDeVentas}");
+Console.WriteLine("-----------------------");
