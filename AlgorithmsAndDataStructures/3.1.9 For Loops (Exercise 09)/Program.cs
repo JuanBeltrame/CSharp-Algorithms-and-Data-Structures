@@ -19,3 +19,24 @@ using System.Diagnostics.Tracing;
 
 Console.Title = "Practica 1 - For loops - Exercise 3.1.9";
 Console.ForegroundColor = ConsoleColor.Yellow;
+
+decimal importe = default;
+int contadorDeVentas = default;
+decimal sumadorDeVentas = 0;
+int cantidadDeVentas = 10;
+
+
+for (int i = 0; i < cantidadDeVentas; i++)
+{
+    importe = int.Parse(Console.ReadLine()!);
+    if (importe < 10000)
+    {
+        contadorDeVentas += 1;
+    }
+    else
+    {
+        sumadorDeVentas += importe;
+    }
+
+}
+
