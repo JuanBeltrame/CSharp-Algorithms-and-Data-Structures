@@ -2,14 +2,10 @@
 Practica 1 - For loops - Exercise 3.1.7
 ----------------------------------------------------------------------
 English:
-Knowing that a university course has X amount of subjects, enter the grades with which a student passed each of the
-the grades with which a student passed each of the subjects during his or her university career and
-and finally show the average grade of that student.
+Calculate and display the sum of the first 100 natural numbers.
 
 Spanish: 
-Sabiendo que una carrera universitaria cuenta con X cantidad de materias, ingresar las
-notas con que un alumno aprobó cada una de las materias durante su carrera
-universitaria y finalmente mostrar la nota promedio de dicho alumno.
+Calcular y exhibir la suma de los primeros 100 números naturales.
 ----------------------------------------------------------------------
 */
 
@@ -19,3 +15,13 @@ using System.Diagnostics.Tracing;
 
 Console.Title = "Practica 1 - For loops - Exercise 3.1.7";
 Console.ForegroundColor = ConsoleColor.Yellow;
+
+int suma = 0;
+int contador = 1;
+
+for (int i = 0; i < 100; i++)
+{
+    suma += contador;
+    contador++;
+}
+Console.WriteLine($"La suma de los primeros 100 numeros naturales es: {suma}");
