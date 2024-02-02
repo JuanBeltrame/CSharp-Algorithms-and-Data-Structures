@@ -1,5 +1,5 @@
 ﻿/* 
-Practica 1 - For loops - Exercise 3.1.4
+Practica 1 - For loops - Exercise 3.1.04
 ----------------------------------------------------------------------
 English:
 Given 200 integers as data, obtain and display their sum.

@@ -1,5 +1,5 @@
 ﻿/* 
-Practica 1 - For loops - Exercise 3.1.1
+Practica 1 - For loops - Exercise 3.1.01
 ----------------------------------------------------------------------
 English:
 Calculate the salary of each of the 50 workers in a factory,

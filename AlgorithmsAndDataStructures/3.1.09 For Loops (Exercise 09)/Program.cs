@@ -1,5 +1,5 @@
 ﻿/* 
-Practica 1 - For loops - Exercise 3.1.9
+Practica 1 - For loops - Exercise 3.1.09
 ----------------------------------------------------------------------
 English:
 The amounts of 200 sales of a bookstore are given as data. We wish to know:

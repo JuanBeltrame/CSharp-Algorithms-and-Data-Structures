@@ -1,5 +1,5 @@
 ﻿/* 
-Practica 1 - For loops - Exercise 3.1.2
+Practica 1 - For loops - Exercise 3.1.02
 ----------------------------------------------------------------------
 English:
 Given 100 integers as input, 

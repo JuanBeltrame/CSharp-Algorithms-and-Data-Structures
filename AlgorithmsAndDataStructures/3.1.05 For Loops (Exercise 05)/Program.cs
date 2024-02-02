@@ -1,5 +1,5 @@
 ﻿/* 
-Practica 1 - For loops - Exercise 3.1.5
+Practica 1 - For loops - Exercise 3.1.05
 ----------------------------------------------------------------------
 English:
 For 1,000 residential electricity users there are pairs of values that indicate, for each meter

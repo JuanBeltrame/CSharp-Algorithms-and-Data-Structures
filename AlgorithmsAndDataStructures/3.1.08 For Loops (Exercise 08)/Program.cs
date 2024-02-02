@@ -1,5 +1,5 @@
 ﻿/* 
-Practica 1 - For loops - Exercise 3.1.8
+Practica 1 - For loops - Exercise 3.1.08
 ----------------------------------------------------------------------
 English:
 Enter two natural numbers.

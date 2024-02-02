@@ -1,5 +1,5 @@
 ﻿/* 
-Practica 1 - For loops - Exercise 3.1.12S
+Practica 1 - For loops - Exercise 3.1.12
 ----------------------------------------------------------------------
 English:
 Generate and report the first N multiples of any integer M.

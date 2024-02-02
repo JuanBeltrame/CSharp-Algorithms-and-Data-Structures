@@ -1,5 +1,5 @@
 ﻿/* 
-Practica 1 - For loops - Exercise 3.1.3
+Practica 1 - For loops - Exercise 3.1.03
 ----------------------------------------------------------------------
 English:
 Entering a sequence of 300 integers, 

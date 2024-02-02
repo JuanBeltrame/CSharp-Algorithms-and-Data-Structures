@@ -1,5 +1,5 @@
 ﻿/* 
-Practica 1 - For loops - Exercise 3.1.6
+Practica 1 - For loops - Exercise 3.1.06
 ----------------------------------------------------------------------
 English:
 Knowing that a university course has X amount of subjects, enter the grades with which a student passed each of the

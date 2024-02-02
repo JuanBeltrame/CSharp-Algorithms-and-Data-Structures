@@ -1,5 +1,5 @@
 ﻿/* 
-Practica 1 - For loops - Exercise 3.1.7
+Practica 1 - For loops - Exercise 3.1.07
 ----------------------------------------------------------------------
 English:
 Calculate and display the sum of the first 100 natural numbers.
