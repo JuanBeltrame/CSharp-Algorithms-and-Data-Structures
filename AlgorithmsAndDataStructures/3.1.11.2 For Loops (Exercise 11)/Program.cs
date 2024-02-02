@@ -15,7 +15,7 @@ N y M son dos números que se ingresan como dato.
 
 using System.Diagnostics.Tracing;
 
-Console.Title = "Practica 1 - For loops - Exercise 3.1.10";
+Console.Title = "Practica 1 - For loops - Exercise 3.1.11";
 Console.ForegroundColor = ConsoleColor.Yellow;
 
 Console.Write("Ingresar un numero (M): ");
@@ -32,4 +32,3 @@ for (int i = 0; i <= N; i++)
 }
 
 
-b
