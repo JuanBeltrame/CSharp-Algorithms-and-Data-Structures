@@ -117,7 +117,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.1.11.2 For Loops (Exercis
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.1.11.1 For Loops (Exercise 11)", "3.1.11.1 For Loops (Exercise 11)\3.1.11.1 For Loops (Exercise 11).csproj", "{2ED7D620-F88B-4C96-A5ED-A8DE16D3E5C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.1.12 For Loops (Exercise 12)", "3.1.12 For Loops (Exercise 12)\3.1.12 For Loops (Exercise 12).csproj", "{16FBCC22-9117-4A10-8A46-9F9BF296C723}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.1.12 For Loops (Exercise 12)", "3.1.12 For Loops (Exercise 12)\3.1.12 For Loops (Exercise 12).csproj", "{16FBCC22-9117-4A10-8A46-9F9BF296C723}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.1.13 For Loops (Exercise 13)", "3.1.13 For Loops (Exercise 13)\3.1.13 For Loops (Exercise 13).csproj", "{80876C74-4BA6-49AA-825C-5977BF48469E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -357,6 +359,10 @@ Global
 		{16FBCC22-9117-4A10-8A46-9F9BF296C723}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16FBCC22-9117-4A10-8A46-9F9BF296C723}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16FBCC22-9117-4A10-8A46-9F9BF296C723}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80876C74-4BA6-49AA-825C-5977BF48469E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80876C74-4BA6-49AA-825C-5977BF48469E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80876C74-4BA6-49AA-825C-5977BF48469E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80876C74-4BA6-49AA-825C-5977BF48469E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
