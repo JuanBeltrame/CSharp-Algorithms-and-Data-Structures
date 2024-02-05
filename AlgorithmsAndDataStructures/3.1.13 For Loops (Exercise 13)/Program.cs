@@ -14,8 +14,17 @@ Calcular y exhibir el factorial de un número cualquiera ingresado por teclado.
 Console.Title = "Practica 1 - For loops - Exercise 3.1.13";
 Console.ForegroundColor = ConsoleColor.Yellow;
 
-Console.WriteLine("");
+Console.Write("Ingresar un numero: ");
 int numero = int.Parse(Console.ReadLine()!);
+int acumulador = 1;
+
+for (int i = 2; i <= numero; i++)
+{
+    acumulador = acumulador * i;
+    
+}
+
+Console.WriteLine($"El factorial es: {acumulador} ");
 
 
 
