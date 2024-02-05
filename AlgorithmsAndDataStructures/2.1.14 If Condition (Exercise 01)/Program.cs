@@ -1,5 +1,5 @@
 ﻿/* 
-Practica 1 - If Conditional - Exercise 2.2.01
+Practica 1 - If Conditional - Exercise 2.1.14 - UTN Avellaneda" 
 ----------------------------------------------------------------------
 English:
 Enter 5 numbers 
