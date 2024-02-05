@@ -125,6 +125,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.1.15 For Loops (Exercise 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.1.16 For Loops (Exercise 16)", "3.1.16 For Loops (Exercise 16)\3.1.16 For Loops (Exercise 16).csproj", "{EFC5AC86-DFB5-4651-8A7E-D191A61DAE7C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.1.17 For Loops (Exercise 17)", "3.1.17 For Loops (Exercise 17)\3.1.17 For Loops (Exercise 17).csproj", "{1A5A1E4B-EDFD-4157-A7C6-102EAC3E7CB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -375,6 +377,10 @@ Global
 		{EFC5AC86-DFB5-4651-8A7E-D191A61DAE7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFC5AC86-DFB5-4651-8A7E-D191A61DAE7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFC5AC86-DFB5-4651-8A7E-D191A61DAE7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A5A1E4B-EDFD-4157-A7C6-102EAC3E7CB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A5A1E4B-EDFD-4157-A7C6-102EAC3E7CB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A5A1E4B-EDFD-4157-A7C6-102EAC3E7CB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A5A1E4B-EDFD-4157-A7C6-102EAC3E7CB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
