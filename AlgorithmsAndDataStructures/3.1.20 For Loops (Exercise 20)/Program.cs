@@ -23,18 +23,21 @@ Console.Title = "Practica 1 - For loops - Exercise 3.1.20";
 Console.ForegroundColor = ConsoleColor.Yellow;
 
 int cantidadAlumnos = 55;
+Random rn = new();
 
+Console.WriteLine("Bienvenido");
 for (int i = 0; i < cantidadAlumnos; i++)
 {
     int cantidadDeParciales = 6;
     int acumuladorNotas = 0;
-    for (int j = 0; j < cantidadDeParciales; i++)
+    double promedio;
+    for (int j = 0; j < cantidadDeParciales; j++)
     {
         int nota = default;
-        Random rn = new();
         nota = rn.Next(1, 11);
-        acumuladorNotas = acumuladorNotas + nota;
+        acumuladorNotas += nota;
     }
-    Console.WriteLine($"Alumno: {i+1}, con un promedio de: {acumuladorNotas}");
+    promedio = acumuladorNotas / cantidadDeParciales;
+    Console.WriteLine($"Alumno: {i+1}, con un promedio de: {promedio}");
 }
 
