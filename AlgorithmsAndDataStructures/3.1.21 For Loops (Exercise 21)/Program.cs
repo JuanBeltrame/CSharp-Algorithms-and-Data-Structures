@@ -27,3 +27,44 @@ using System.Runtime.ExceptionServices;
 
 Console.Title = "Practica 1 - For loops - Exercise 3.1.21";
 Console.ForegroundColor = ConsoleColor.Yellow;
+
+int cantMujeres = 0;
+int cantHombres = 0;
+int acumuladorEdad = 0;
+int acumularCuotass = 0;
+
+Console.Write("Ingrese la cantidad de miembros del Club: ");
+int nMembers = int.Parse(Console.ReadLine()!);
+Random rn = new();
+Console.WriteLine();
+
+
+for (int i = 0; i < nMembers; i++)
+{
+    int nSocio = rn.Next(1, 1001);
+    int edad = rn.Next(1, 100);
+    int importeCuota = rn.Next(3000, 6000);
+    char letraAletoria = (char)rn.Next('M', 'F' + 1);
+    if (letraAletoria == 'M')
+    {
+        cantMujeres = cantMujeres + 1;
+    }
+    else
+    {
+        cantHombres += 1;
+    }
+
+    acumuladorEdad = acumuladorEdad + edad;
+    acumularCuotass = acumularCuotass + importeCuota;
+
+    Console.WriteLine($"N de Socio: {nSocio}");
+    Console.WriteLine($"Edad: {edad}");
+    Console.WriteLine($"Sexo (F/M): {letraAletoria}");
+    Console.WriteLine($"Importe de la cuota: {importeCuota}");
+}
+
+int promedioEdad = acumuladorEdad / nMembers;
+Console.WriteLine($"Cantidad de Hombres: {cantHombres}");
+Console.WriteLine($"Cantidad de Mujeres: {cantMujeres}");
+Console.WriteLine($"Promedio de Edad en el club: {promedioEdad}");
+Console.WriteLine($"Total recaudado: {acumularCuotass}");
