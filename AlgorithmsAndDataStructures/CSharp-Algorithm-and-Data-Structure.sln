@@ -129,13 +129,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.1.17 For Loops (Exercise 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.1.18 For Loops (Exercise 18)", "3.1.18 For Loops (Exercise 18)\3.1.18 For Loops (Exercise 18).csproj", "{C149FE19-1F0B-481D-A22F-9F7A8118F20E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.1.19 For Loops (Exercise 19) (Incompleto)", "3.1.19 For Loops (Exercise 19)\3.1.19 For Loops (Exercise 19) (Incompleto).csproj", "{3D17BF16-1E53-4C85-9A47-FF402797AA8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.1.19 For Loops (Exercise 19) (Incompleto)", "3.1.19 For Loops (Exercise 19)\3.1.19 For Loops (Exercise 19) (Incompleto).csproj", "{3D17BF16-1E53-4C85-9A47-FF402797AA8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.1.20 For Loops (Exercise 20)", "3.1.20 For Loops (Exercise 20)\3.1.20 For Loops (Exercise 20).csproj", "{802D08EF-EE78-4D68-ACAC-33E3F2E6A045}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.1.20 For Loops (Exercise 20)", "3.1.20 For Loops (Exercise 20)\3.1.20 For Loops (Exercise 20).csproj", "{802D08EF-EE78-4D68-ACAC-33E3F2E6A045}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.1.21 For Loops (Exercise 21)", "3.1.21 For Loops (Exercise 21)\3.1.21 For Loops (Exercise 21).csproj", "{3F9F6B2E-15F9-4D28-96FE-A1A64CE8678B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.1.21 For Loops (Exercise 21)", "3.1.21 For Loops (Exercise 21)\3.1.21 For Loops (Exercise 21).csproj", "{3F9F6B2E-15F9-4D28-96FE-A1A64CE8678B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.1.22 For Loops (Exercise 22)", "3.1.22 For Loops (Exercise 22)\3.1.22 For Loops (Exercise 22).csproj", "{9279DE9C-3A6C-4FFA-A371-F179D8538612}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.1.22 For Loops (Exercise 22) (Incompleto)", "3.1.22 For Loops (Exercise 22)\3.1.22 For Loops (Exercise 22) (Incompleto).csproj", "{9279DE9C-3A6C-4FFA-A371-F179D8538612}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.1.23 For Loops (Exercise 23)", "3.1.23 For Loops (Exercise 23)\3.1.23 For Loops (Exercise 23).csproj", "{0A0DFDB8-6998-4015-A54D-3DEE876501A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -411,6 +413,10 @@ Global
 		{9279DE9C-3A6C-4FFA-A371-F179D8538612}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9279DE9C-3A6C-4FFA-A371-F179D8538612}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9279DE9C-3A6C-4FFA-A371-F179D8538612}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A0DFDB8-6998-4015-A54D-3DEE876501A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A0DFDB8-6998-4015-A54D-3DEE876501A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A0DFDB8-6998-4015-A54D-3DEE876501A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A0DFDB8-6998-4015-A54D-3DEE876501A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
