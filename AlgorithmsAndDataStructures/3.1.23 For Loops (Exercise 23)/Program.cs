@@ -38,7 +38,7 @@ using System.Runtime.ExceptionServices;
 Console.Title = "Practica 1 - For loops - Exercise 3.1.23";
 Console.ForegroundColor = ConsoleColor.Yellow;
 
-int cantidadSecciones = 10;
+int cantidadSecciones = 3;
 int cantidadEmpleados;
 Random rn = new();
 
@@ -53,15 +53,16 @@ for (int i = 0; i < cantidadSecciones; i++)
     int acumuladorHoras = 0;
     int acumuladorHorasTM = 0;
     int acumuladorHorasTT = 0;
-
-    Console.WriteLine($"Numero de Seccio: {i+1}");
+    Console.WriteLine("--------------------------");
+    Console.WriteLine($"Numero de Seccion: {i + 1}");
+    Console.WriteLine("--------------------------");
     cantidadEmpleados = rn.Next(1, 21);
     Console.WriteLine($"Actualmente trabajan {cantidadEmpleados}");
     for (int j = 0; j < cantidadEmpleados; j++)
     {
         cantidadHorasTrabajadas = rn.Next(20, 41);
         acumuladorHoras = acumuladorHoras + cantidadHorasTrabajadas;
-        Console.WriteLine($"El empleado: {j}, trabajo: {cantidadHorasTrabajadas} horas.");
+        Console.WriteLine($"El empleado: {j+1}, trabajo: {cantidadHorasTrabajadas} horas.");
         turno = rn.Next(0, 2);
         if ( turno == 0)
         {
@@ -78,6 +79,7 @@ for (int i = 0; i < cantidadSecciones; i++)
     promedio = acumuladorHoras / cantidadEmpleados;
     Console.WriteLine($"El promedio de horas trabajadas en la seccion {i+1}, es de: {promedio}");
     Console.WriteLine($"En la seccion {i +1} se trabajaron: {acumuladorHorasTM} horas a la manaana y {acumuladorHorasTT} a la tarde");
+    Console.WriteLine(" ");
 }
 
 Console.WriteLine($"En toda la empresa se trabajaron {acumuladorHorasTMGlobal} horas en el turno manana");

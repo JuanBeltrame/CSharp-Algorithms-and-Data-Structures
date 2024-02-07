@@ -6,8 +6,8 @@ English:
 
 
 Spanish: 
-
-
+Dada una sucesión de N números enteros ordenados en forma creciente, 
+no consecutivos, hallar la máxima diferencia entre dos números sucesivos.
 ----------------------------------------------------------------------
 */
 
