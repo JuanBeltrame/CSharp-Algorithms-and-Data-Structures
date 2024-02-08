@@ -23,7 +23,7 @@ int contador = 0;
 
 Console.WriteLine("Ingresar un numero: ");
 numero = int.Parse(Console.ReadLine()!);
-while ( numero != 0)
+while (numero != 0)
 {
     if (numero >= 100)
     {
