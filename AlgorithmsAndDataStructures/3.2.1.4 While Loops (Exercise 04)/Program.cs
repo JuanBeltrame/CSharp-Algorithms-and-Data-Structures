@@ -2,7 +2,7 @@
 Practica 1 - While loops - Exercise 3.2.1.4
 ----------------------------------------------------------------------
 English:
-
+OK
 
 Spanish: 
 Se cuenta con la información brindada por un conjunto de vendedores. Por cada uno de
