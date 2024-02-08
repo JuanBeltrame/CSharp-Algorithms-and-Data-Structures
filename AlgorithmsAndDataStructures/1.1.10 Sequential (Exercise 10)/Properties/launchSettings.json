@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "1.1.10 Sequential (Exercise 10)": {
+      "commandName": "Project"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    }
+  }
+}
