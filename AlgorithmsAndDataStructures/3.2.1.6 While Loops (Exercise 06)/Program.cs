@@ -26,3 +26,13 @@ using System.Security.Cryptography;
 
 Console.Title = "Practica 1 - While loops - Exercise 3.2.1.6";
 Console.ForegroundColor = ConsoleColor.Yellow;
+
+int cantidadDeViajantes = 50;
+Console.WriteLine("--------------");
+Console.WriteLine($"Cantidad de Viajantes de la empresa: {cantidadDeViajantes}");
+
+
+for (int i = 0; i < cantidadDeViajantes; i++)
+{
+
+}
