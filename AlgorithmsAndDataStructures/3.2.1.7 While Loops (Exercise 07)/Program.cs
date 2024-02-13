@@ -34,16 +34,19 @@ char cantidadDeVendedores = 'H';
 int importe = default;
 Random rn = new();
 
-for (char i = 'A'; i < cantidadDeVendedores; i++)
+for (char i = 'A'; i <= cantidadDeVendedores; i++)
 {
     importe = rn.Next(0, 51);
-    Console.WriteLine($"Importe del vendedor {i}: {importe}");
+    int acumuladorVentas = 0;
+    Console.WriteLine($"Ingresar importe del vendedor {i} [0 Para Salir]: {importe}");
     while (importe != 0)
     {
+        acumuladorVentas = acumuladorVentas + importe;
         importe = rn.Next(0, 51);
-        Console.WriteLine($"Importe del vendedor {i}: {importe}");
+        Console.WriteLine($"Ingresar importe del vendedor {i} [0 Para Salir]: {importe}");
     }
 
-
-    Console.WriteLine($"El importe del vendedor {i}, es de {importe}");
+    decimal comision = (decimal)0.025 * acumuladorVentas;
+    Console.WriteLine($"El vendedor {i}, vendio en total ${acumuladorVentas} en ventas, le correspone una comision de ${comision.ToString("F1")}");
+    Console.WriteLine();
 }
