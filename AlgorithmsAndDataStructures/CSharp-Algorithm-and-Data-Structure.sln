@@ -151,7 +151,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.2.1.5 While Loops (Exerci
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.2.1.6 While Loops (Exercise 06)", "3.2.1.6 While Loops (Exercise 06)\3.2.1.6 While Loops (Exercise 06).csproj", "{FC1A7118-D1FB-4297-BC62-128C939ACE00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.2.1.7 While Loops (Exercise 07)", "3.2.1.7 While Loops (Exercise 07)\3.2.1.7 While Loops (Exercise 07).csproj", "{E3FBB701-219C-4CD9-BC11-9B788F4A07EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.2.1.7 While Loops (Exercise 07)", "3.2.1.7 While Loops (Exercise 07)\3.2.1.7 While Loops (Exercise 07).csproj", "{E3FBB701-219C-4CD9-BC11-9B788F4A07EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.2.1.8 While Loops (Exercise 08)", "3.2.1.8 While Loops (Exercise 08)\3.2.1.8 While Loops (Exercise 08).csproj", "{CF550863-1858-433A-AA0A-7CA72BCE677D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.3.1.1 do while loop", "3.3.1.1 do while loop\3.3.1.1 do while loop.csproj", "{6D37DF85-894E-4EBF-8CE3-F8DCDF17AD02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -459,6 +463,14 @@ Global
 		{E3FBB701-219C-4CD9-BC11-9B788F4A07EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3FBB701-219C-4CD9-BC11-9B788F4A07EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3FBB701-219C-4CD9-BC11-9B788F4A07EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF550863-1858-433A-AA0A-7CA72BCE677D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF550863-1858-433A-AA0A-7CA72BCE677D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF550863-1858-433A-AA0A-7CA72BCE677D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF550863-1858-433A-AA0A-7CA72BCE677D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D37DF85-894E-4EBF-8CE3-F8DCDF17AD02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D37DF85-894E-4EBF-8CE3-F8DCDF17AD02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D37DF85-894E-4EBF-8CE3-F8DCDF17AD02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D37DF85-894E-4EBF-8CE3-F8DCDF17AD02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
