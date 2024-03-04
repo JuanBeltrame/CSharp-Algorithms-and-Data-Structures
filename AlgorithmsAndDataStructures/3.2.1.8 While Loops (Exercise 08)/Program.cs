@@ -32,3 +32,34 @@ using System.Runtime.InteropServices;
 Console.Title = "Practica 1 - While loops - Exercise 3.2.1.8";
 Console.ForegroundColor = ConsoleColor.Yellow;
 
+int mayorImporteGlobal = 0;
+int vendedorMax = default;
+
+Console.Write($"Ingresar codigo de Vendedor (0 para finalizar): ");
+int codigoVendedor = int.Parse(Console.ReadLine()!);
+
+while (codigoVendedor != 0)
+{
+    int acumuladorTotalxVendedor = 0;
+    int  vendedorAnterior = codigoVendedor;
+    while (codigoVendedor == vendedorAnterior)
+    {
+        Console.Write($"Ingresar Importe de la venta realizada por el vendedor {codigoVendedor}: ");
+        int importe = int.Parse(Console.ReadLine()!);
+        acumuladorTotalxVendedor = acumuladorTotalxVendedor + importe;
+        if(acumuladorTotalxVendedor > mayorImporteGlobal)
+        {
+            vendedorMax = codigoVendedor;
+            mayorImporteGlobal = acumuladorTotalxVendedor;
+        }
+
+        Console.Write($"Ingresar codigo de Vendedor (0 para finalizar): ");
+        codigoVendedor = int.Parse(Console.ReadLine()!);
+    }
+    Console.WriteLine($"El importe total del vendedor: {vendedorAnterior}, es de: {acumuladorTotalxVendedor}");
+}
+Console.WriteLine($"El vendedor con el mayor importe vendido es: {vendedorMax}, con un monto de: {mayorImporteGlobal}");
+
+
+
+
