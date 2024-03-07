@@ -23,3 +23,7 @@ using System.Runtime.InteropServices;
 Console.Title = "Practica 1 - While loops - Exercise 3.2.1.8";
 Console.ForegroundColor = ConsoleColor.Yellow;
 
+int codVendedor = default;
+
+
+
