@@ -1,5 +1,5 @@
 /*
-Practica 1 - While Loops - Pre-Conditional - Exercise 01/08
+Practica 1 - While Loops - Pre-Conditional - Exercise 3.2.1.8
 ----------------------------------------------------------------------
 English: 
 We want to know the total sales for each of the sellers in a company. 
