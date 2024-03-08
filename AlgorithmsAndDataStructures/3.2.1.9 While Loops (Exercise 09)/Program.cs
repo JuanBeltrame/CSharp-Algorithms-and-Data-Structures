@@ -19,7 +19,7 @@ Console.Title = "Practica 1 - While loops - Exercise 3.2.1.8";
 Console.ForegroundColor = ConsoleColor.Yellow;
 
 char letra = default;
-int contadorLetras = default;
+int contadorLetras = 0;
 
 Console.Write("Ingresar una letra: ");
 while(!char.TryParse(Console.ReadLine(), out letra))
@@ -28,12 +28,19 @@ while(!char.TryParse(Console.ReadLine(), out letra))
     Console.Write("Ingresar una letra: ");
 }
 
-Console.WriteLine($"Se ingreso la letra {letra}");
 while (letra != '*')
 {
-    char letraRepetida = letra;
-    while(letraRepetida == letra)
+    char letraAnterior = letra;
+    while(letraAnterior == letra)
     {
         contadorLetras += 1;
+
+        Console.Write("Ingresar una letra: ");
+        while (!char.TryParse(Console.ReadLine(), out letra))
+        {
+            Console.WriteLine("El dato ingresado no es una letra, intenta nuevamente");
+            Console.Write("Ingresar una letra: ");
+        }
     }
+    Console.WriteLine($"La letra {letraAnterior} se ingreso {contadorLetras} veces");
 }
