@@ -139,13 +139,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.1.22 For Loops (Exercise 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.1.23 For Loops (Exercise 23)", "3.1.23 For Loops (Exercise 23)\3.1.23 For Loops (Exercise 23).csproj", "{0A0DFDB8-6998-4015-A54D-3DEE876501A1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.2.1.1 While Loops (Exercise 01)", "3.2.1.1 While Loops (Exercise 01)\3.2.1.1 While Loops (Exercise 01).csproj", "{1BEA3170-ACB0-4126-9485-FC5468AE7CAD}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.2.1.2 While Loops (Exercise 02)", "3.2.1.2 While Loops (Exercise 02)\3.2.1.2 While Loops (Exercise 02).csproj", "{18162EA6-A8AA-4066-8229-8099DDD71301}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.2.1.4 While Loops (Exercise 04)", "3.2.1.4 While Loops (Exercise 04)\3.2.1.4 While Loops (Exercise 04).csproj", "{E7AD6F09-9677-4E3B-BB1E-39FB255B3F82}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.2.1.3 While Loops (Exercise 03)", "3.2.1.3 While Loops (Exercise 03)\3.2.1.3 While Loops (Exercise 03).csproj", "{CE6A8F06-C14B-4168-A54C-6DC18514581F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.2.1.03 While Loops (Exercise 03)", "3.2.1.3 While Loops (Exercise 03)\3.2.1.03 While Loops (Exercise 03).csproj", "{CE6A8F06-C14B-4168-A54C-6DC18514581F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.2.1.5 While Loops (Exercise 05)", "3.2.1.5 While Loops (Exercise 05)\3.2.1.5 While Loops (Exercise 05).csproj", "{2BCFC849-F9AF-40B2-AA29-16E5D97FD177}"
 EndProject
@@ -157,7 +153,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.2.1.8 While Loops (Exerci
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.3.1.1 do while loop", "3.3.1.1 do while loop\3.3.1.1 do while loop.csproj", "{6D37DF85-894E-4EBF-8CE3-F8DCDF17AD02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.2.1.9 While Loops (Exercise 09)", "3.2.1.9 While Loops (Exercise 09)\3.2.1.9 While Loops (Exercise 09).csproj", "{F042C2B6-FA5E-4AF6-AF49-307648909A31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.2.1.9 While Loops (Exercise 09)", "3.2.1.9 While Loops (Exercise 09)\3.2.1.9 While Loops (Exercise 09).csproj", "{F042C2B6-FA5E-4AF6-AF49-307648909A31}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.2.1.10 While Loops (Exercise 10)", "3.2.1.10 While Loops (Exercise 10)\3.2.1.10 While Loops (Exercise 10).csproj", "{8596302B-46C5-40CE-9368-04C4E15C3F4A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.2.1.01 While Loops (Exercise 01)", "3.2.1.01 While Loops (Exercise 01)\3.2.1.01 While Loops (Exercise 01).csproj", "{E075BC64-6A35-49B6-9AF4-35B75550B7FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.2.1.02 While Loops (Exercise 02)", "3.2.1.02 While Loops (Exercise 02)\3.2.1.02 While Loops (Exercise 02).csproj", "{2FEA96AC-3FD5-47B1-8476-3B250EFE50CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -437,14 +439,6 @@ Global
 		{0A0DFDB8-6998-4015-A54D-3DEE876501A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A0DFDB8-6998-4015-A54D-3DEE876501A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A0DFDB8-6998-4015-A54D-3DEE876501A1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1BEA3170-ACB0-4126-9485-FC5468AE7CAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1BEA3170-ACB0-4126-9485-FC5468AE7CAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1BEA3170-ACB0-4126-9485-FC5468AE7CAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1BEA3170-ACB0-4126-9485-FC5468AE7CAD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{18162EA6-A8AA-4066-8229-8099DDD71301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{18162EA6-A8AA-4066-8229-8099DDD71301}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{18162EA6-A8AA-4066-8229-8099DDD71301}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{18162EA6-A8AA-4066-8229-8099DDD71301}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E7AD6F09-9677-4E3B-BB1E-39FB255B3F82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E7AD6F09-9677-4E3B-BB1E-39FB255B3F82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7AD6F09-9677-4E3B-BB1E-39FB255B3F82}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -477,6 +471,18 @@ Global
 		{F042C2B6-FA5E-4AF6-AF49-307648909A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F042C2B6-FA5E-4AF6-AF49-307648909A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F042C2B6-FA5E-4AF6-AF49-307648909A31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8596302B-46C5-40CE-9368-04C4E15C3F4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8596302B-46C5-40CE-9368-04C4E15C3F4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8596302B-46C5-40CE-9368-04C4E15C3F4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8596302B-46C5-40CE-9368-04C4E15C3F4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E075BC64-6A35-49B6-9AF4-35B75550B7FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E075BC64-6A35-49B6-9AF4-35B75550B7FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E075BC64-6A35-49B6-9AF4-35B75550B7FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E075BC64-6A35-49B6-9AF4-35B75550B7FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FEA96AC-3FD5-47B1-8476-3B250EFE50CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FEA96AC-3FD5-47B1-8476-3B250EFE50CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FEA96AC-3FD5-47B1-8476-3B250EFE50CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FEA96AC-3FD5-47B1-8476-3B250EFE50CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

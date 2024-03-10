@@ -1,5 +1,5 @@
 ﻿/* 
-Practica 1 - While loops - Exercise 3.2.1.1
+Practica 1 - While loops - Exercise 3.2.1.01
 ----------------------------------------------------------------------
 English:
 Given a set of integers, 

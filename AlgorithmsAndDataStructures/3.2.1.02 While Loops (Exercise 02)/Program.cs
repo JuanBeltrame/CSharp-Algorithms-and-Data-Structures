@@ -1,5 +1,5 @@
 ﻿/* 
-Practica 1 - While loops - Exercise 3.2.1.2
+Practica 1 - While loops - Exercise 3.2.1.02
 ----------------------------------------------------------------------
 English:
 We have as data the amounts of all the invoices corresponding to the month that has just ended from a store (we do not know how many there are).
