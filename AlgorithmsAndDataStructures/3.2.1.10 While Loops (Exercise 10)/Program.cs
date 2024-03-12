@@ -25,9 +25,26 @@ Console.Title = "Practica 1 - While loops - Exercise 3.2.1.08";
 Console.ForegroundColor = ConsoleColor.Yellow;
 
 Random rn = new();
-Console.WriteLine("Ingresar el numero de Comision: ");
 int numComision = rn.Next(11);
+Console.WriteLine($"Ingresar el numero de Comision: {numComision}");
 while (numComision != 0)
 {
+    int contadorDeExamentes = 0;
+    int acumuladorDeNotas = 0;
+    decimal prom = default;
+    int comisionAnterior = numComision;
+    while(comisionAnterior == numComision)
+    {
+        int notaParcial = rn.Next(11);
+        Console.WriteLine($"Ingresar nota del parcial: {notaParcial}");
+        contadorDeExamentes += 1;
+        acumuladorDeNotas += notaParcial;       
+
+        numComision = rn.Next(11);
+        Console.WriteLine($"Ingresar nuevamente un numero de comision: [0 para salir] {numComision}");
+    }
+    prom = acumuladorDeNotas / contadorDeExamentes;
+    Console.WriteLine($"El promedio de notas que obtuvo la comsion {comisionAnterior}, es: {prom}");
+
 
 }
