@@ -1,5 +1,5 @@
 ﻿/* 
-Practica 1 - While loops - Exercise 3.2.1.08
+Practica 1 - While loops - Exercise 3.2.1.10
 ----------------------------------------------------------------------
 English:
 For each first-year student at the faculty, the following data is available:
@@ -21,7 +21,7 @@ el número de comisión y el promedio de las notas de dicho parcial.
 
 //--------Programa Principal----------
 
-Console.Title = "Practica 1 - While loops - Exercise 3.2.1.08";
+Console.Title = "Practica 1 - While loops - Exercise 3.2.1.10";
 Console.ForegroundColor = ConsoleColor.Yellow;
 
 Random rn = new();

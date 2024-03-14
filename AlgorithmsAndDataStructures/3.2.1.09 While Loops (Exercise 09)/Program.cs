@@ -15,7 +15,7 @@ un ‘*’.
 
 //--------Programa Principal----------
 
-Console.Title = "Practica 1 - While loops - Exercise 3.2.1.08";
+Console.Title = "Practica 1 - While loops - Exercise 3.2.1.09";
 Console.ForegroundColor = ConsoleColor.Yellow;
 
 char letra = default;
