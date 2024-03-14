@@ -15,8 +15,8 @@ Del reloj de marcación del personal de una empresa se tienen los siguientes dat
 día, DNI y cantidad de horas trabajadas
 
 Se desea conocer:
-Por día, quien trabajó la mayor cantidad de horas y el promedio de horas trabajas
-La cantidad total de horas trabajas.
+Por día, quien trabajó la mayor cantidad de horas y el promedio de horas trabajadas
+La cantidad total de horas trabajadas.
 Los datos vienen ordenados por día y la carga de datos termina al ingresar el día en 0.
 ----------------------------------------------------------------------
 */
@@ -25,4 +25,35 @@ Los datos vienen ordenados por día y la carga de datos termina al ingresar el d
 
 Console.Title = "Practica 1 - While loops - Exercise 3.2.1.11";
 Console.ForegroundColor = ConsoleColor.Yellow;
+
+
+Random rn = new Random();
+int dni;
+int dia;
+int cantHsTrabajadas;
+
+int maxHs;
+int diaAnterior;
+
+
+dia = rn.Next(0, 31);
+Console.WriteLine($"Ingresar dia: {dia}");
+while (dia != 0)
+{
+    diaAnterior = dia;
+    while (dia == diaAnterior)
+    {
+        dni = rn.Next(30000000, 50000000);
+        Console.WriteLine($"Ingresar DNI: {dni}");
+        Console.WriteLine($"Ingresar la cantidad de horas trabajas del empleado con DNI:{dni}"); 
+
+
+
+        dia = rn.Next(0, 31);
+        Console.WriteLine($"Ingresar nuevamente el dia: {dia}");
+    }
+}
+
+
+
 
