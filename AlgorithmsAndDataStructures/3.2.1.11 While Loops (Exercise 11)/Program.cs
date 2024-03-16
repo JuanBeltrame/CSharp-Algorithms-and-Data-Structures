@@ -23,35 +23,55 @@ Los datos vienen ordenados por día y la carga de datos termina al ingresar el d
 
 //--------Programa Principal----------
 
+using System.Transactions;
+
 Console.Title = "Practica 1 - While loops - Exercise 3.2.1.11";
 Console.ForegroundColor = ConsoleColor.Yellow;
 
 
 Random rn = new Random();
-int dni;
 int dia;
-int cantHsTrabajadas;
-
-int maxHs;
 int diaAnterior;
 
+int dni;
+int dniAnterior;
 
 dia = rn.Next(0, 31);
+Console.WriteLine();
 Console.WriteLine($"Ingresar dia: {dia}");
 while (dia != 0)
 {
+    int cantDNIs = 0;
+    int cantHsTrabajadas;
+    int acumHoras = 0;
+    decimal promedioHoras;
+    int horasMax = 0;
+    int maxDni = 0;
+
     diaAnterior = dia;
     while (dia == diaAnterior)
     {
-        dni = rn.Next(30000000, 50000000);
-        Console.WriteLine($"Ingresar DNI: {dni}");
-        Console.WriteLine($"Ingresar la cantidad de horas trabajas del empleado con DNI:{dni}"); 
+        dni = rn.Next(30, 40);
+        Console.WriteLine($"Ingresar un DNI: {dni}");
+        cantDNIs += 1;
 
+        cantHsTrabajadas = rn.Next(1, 9);
+        Console.WriteLine($"Ingresar cantidad de Horas trabajadas del empleado con DNI {dni}: {cantHsTrabajadas}");
+        acumHoras += cantHsTrabajadas;
 
+        if (cantHsTrabajadas > horasMax)
+        {
+            horasMax = cantHsTrabajadas;
+            maxDni = dni;
+        }
 
         dia = rn.Next(0, 31);
+        Console.WriteLine();
         Console.WriteLine($"Ingresar nuevamente el dia: {dia}");
     }
+    promedioHoras = acumHoras / cantDNIs;
+    Console.WriteLine($"En el dia {diaAnterior} se trabajaron {acumHoras}hs en total, con un promedio de {promedioHoras}hs trabajadas, y el DNI que mas trabajo fu el: {maxDni} ");
+    Console.WriteLine(  );
 }
 
 
